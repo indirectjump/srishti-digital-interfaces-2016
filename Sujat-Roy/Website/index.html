@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>Sujat Roy</title>
+        <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/gallery.css">
+ </head>
+
+  <body>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.22/p5.min.js"></script>
+
+<script>
+  function setup(){
+  createCanvas(windowWidth,windowHeight);
+    }
+  
+  function draw(){
+  
+  if(mouseIsPressed){
+    line(pmouseX,pmouseY,mouseX,mouseY)
+    }
+  }
+</script>
+      
+<header>    
+    <img src="images/logo.gif" width="221" height="26" alt="logo" />
+      </header>
+      
+
+ <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="bio.html">Bio</a></li>
+  <li><a href="p5js.html">p5js</a></li>
+</ul>
+
+<div class="container">
+	<h1>Got a brush?</h1>
+	<p>Sketch the bleep out on this bleeping site. </p>
+</div>
+      
+<div id="galleryBox">
+  
+  <input type="radio" name="imageRadio" id="1">
+    <label for="1"></label>
+  <input type="radio" name="imageRadio" id="2">
+    <label for="2"></label>
+  <input type="radio" name="imageRadio" id="3">
+    <label for="3"></label>
+  <input type="radio" name="imageRadio" id="4" checked>
+    <label for="4"></label>
+  <input type="radio" name="imageRadio" id="5">
+    <label for="5"></label>
+  <input type="radio" name="imageRadio" id="6">
+    <label for="6"></label>
+  <input type="radio" name="imageRadio" id="7">
+    <label for="7"></label>
+  
+</div>
+
+      
+ <div class="footer"><strong>2016 Sujat Roy. All rights reserved.</strong>.</div>
+
+ </body>
+</html>

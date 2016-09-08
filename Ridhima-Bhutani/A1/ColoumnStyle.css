@@ -1,0 +1,47 @@
+table 
+{ font-family: futura;
+  width: 100%;}
+
+td
+{ text-align: center;
+  text-align: justify}
+
+th, td
+{padding: 10px}
+
+.C1
+{ color:grey;
+  font-style:italic;
+  font-family: georgia;
+  background-image: url(flamingo.jpg);
+  background-size: cover;
+ } 
+
+.C2
+{color: black;
+    background-color: pink;}
+
+.C3
+{color:darkblue;
+font-family:georgia;
+background-image: url(flamingo.jpg);
+background-size: cover}
+
+.R1
+{font-family: bebas neue;
+ font-size: 25px}
+
+.C01
+{color:maroon;
+ font-size:30px;
+ background-color: gainsboro;}
+
+.C02,.C03 
+{background-color: gainsboro}
+
+img
+{opacity: 0.5}
+
+img:hover
+{opacity: 1}
+

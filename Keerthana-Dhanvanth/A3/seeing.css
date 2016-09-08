@@ -1,0 +1,110 @@
+body
+{
+ background-color:#EAE5D5 ;
+ width: 100%;
+}
+
+.red{
+
+  position:absolute;
+  top:50%;
+  left:60%;
+  width: 180px;
+  height: 180px;
+  background-color: #8EB1A5;
+  animation:rotate 7s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes rotate
+  {
+  from {transform: scale(1,1);}
+  40% {transform: scale(0.2,0.2);
+			
+			transform:rotate(180deg);
+  }
+  60% {transform: scale(0.2,0.2);
+			
+			transform:rotate(-180deg);
+  }
+  to {transform: scale(1,1);}
+ }
+
+
+h1
+{
+    font-family:DIN Alternate;
+    font-size: 60px;
+    color:#8EB1A5;
+    margin-left: 2500px;
+    margin-top: 1750px;
+    letter-spacing: 5px;
+    
+    
+}
+
+a
+{
+    color:#8EB1A5;
+    text-decoration: none;
+}
+
+.grey{
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  width: 180px;
+  height: 180px;
+  background-color: #255B60;
+  animation:rotate 7s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes rotate
+  {
+  from {transform: scale(1,1);}
+  40% {transform: scale(0.2,0.2);
+			
+			transform:rotate(180deg);
+  }
+  60% {transform: scale(0.2,0.2);
+			
+			transform:rotate(-180deg);
+  }
+  to {transform: scale(1,1);}
+ }
+
+
+.black{
+
+  position:absolute;
+  top:50%;
+  left:40%;
+  width: 180px;
+  height: 180px;
+  background-color: #DBBEB5;
+  animation:rotate 7s;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes rotate
+  {
+  from {transform: scale(1,1);}
+  40% {transform: scale(0.2,0.2);
+			
+			transform:rotate(180deg);
+  }
+  60% {transform: scale(0.2,0.2);
+			
+			transform:rotate(-180deg);
+  }
+  to {transform: scale(1,1);}
+ }
+
+
+
+
+ 

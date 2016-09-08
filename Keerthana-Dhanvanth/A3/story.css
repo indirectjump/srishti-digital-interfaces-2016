@@ -1,0 +1,217 @@
+#keerthana
+{
+    font-family: Franklin Gothic Book;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 120px;
+    color:#8EB1A5;
+}
+
+.container
+{
+    width:100%;
+}
+
+#center
+{
+    margin-left: 1500px;
+}
+
+
+#arrival {
+    font-family:Franklin Gothic Book; 
+    font-size:60px;
+    visibility: visible;
+    position: absolute;
+    top: 110px;
+    left:300px;
+    
+
+}
+
+#pink1{
+    position:absolute;
+    width:250px;
+    height:250px;
+    background:#DBBEB5;
+    margin-top: 300px;
+    margin-left: 800px;
+}
+
+
+#pink1:hover #arrival{
+    color:#255B60;
+    visibility: visible;
+}
+#first
+{
+    font-family: Franklin Gothic Book;
+    font-size: 70px;
+    margin-left: 15%;
+    margin-top: 90px;
+}
+
+#akshara
+{
+    font-family: Franklin Gothic Book;
+    font-size: 50px;
+    visibility: visible;
+    position: absolute;
+    top:30px;
+    left:310px;
+}
+#dark1{
+    position:absolute;
+    width:250px;
+    height:250px;
+    background:#255B60;
+    margin-top: 600px;
+    margin-left: 800px;
+}
+
+#dark1:hover #akshara{
+    color:#255B60;
+    visibility: visible;
+     
+}
+#second
+{
+    font-family:Franklin Gothic Book;
+    font-size: 70px;
+    margin-left:15%;
+    margin-top:80px;
+}
+
+
+#light1{
+    position:absolute;
+    width:250px;
+    height:250px;
+    background:#8EB1A5;
+    margin-top: 900px;
+    margin-left: 1100px;
+}
+
+#rcis {
+    font-family:Franklin Gothic Book; 
+    font-size:50px;
+    visibility: visible;
+    position: absolute;
+    top: -5px;
+    left:300px;
+ }
+
+#light1:hover #rcis{
+    color:#255B60;
+    visibility: visible;
+}
+
+#third
+{
+    font-family: Franklin Gothic Book;
+    font-size: 70px; 
+    margin-left:20%;
+    margin-top:80px;
+}
+
+#light2{
+    position:absolute;
+    width:250px;
+    height:250px;
+    background:#8EB1A5;
+    margin-top: 1200px;
+    margin-left: 1100px;
+}
+
+#pcmb{
+    font-family:Franklin Gothic Book; 
+    font-size:50px;
+    visibility: visible;
+    position: absolute;
+    top: -5px;
+    left:300px;
+ }
+
+#light2:hover #pcmb{
+    color:#255B60;
+    visibility: visible;
+}
+
+#fourth
+{
+    font-family: Franklin Gothic Book;
+    font-size: 70px; 
+    margin-left:15%;
+    margin-top:50px;
+}
+
+#dark2{
+    position:absolute;
+    width:250px;
+    height:250px;
+    background:#255B60;
+    margin-top: 1500px;
+    margin-left: 800px;
+}
+
+#found{
+    font-family:Franklin Gothic Book; 
+    font-size:50px;
+    visibility: visible;
+    position: inherit;
+    top: -5px;
+    left:300px;
+    
+ }
+
+#dark2:hover #found{
+    color:#255B60;
+    visibility: visible;
+}
+
+#fifth
+{
+    font-family: Franklin Gothic Book;
+    font-size: 70px; 
+    margin-left:15%;
+    margin-top:90px;
+}
+
+#pink2{
+    position:absolute;
+    width:250px;
+    height:250px;
+    background:#DBBEB5;
+    margin-top: 1800px;
+    margin-left: 800px;
+}
+
+#vcsb{
+    font-family:Franklin Gothic Book; 
+    font-size:50px;
+    visibility: visible;
+    position: inherit;
+    top: -5px;
+    left:300px;
+    
+ }
+
+#pink2:hover #vcsb{
+    color:#255B60;
+    visibility: visible;
+}
+
+#sixth
+{
+    font-family: Franklin Gothic Book;
+    font-size: 70px; 
+    margin-left:15%;
+    margin-top:50px;
+}
+
+
+body
+{
+    color:#F2EEE2;
+    background-color: #F2EEE2;
+}

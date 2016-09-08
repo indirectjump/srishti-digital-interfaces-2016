@@ -1,0 +1,110 @@
+ 
+body {
+	
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	
+	
+}
+
+a {
+	text-decoration: none;
+	color: dimgray;
+}
+
+
+
+  h1 {
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+      color: darkslategrey;
+      text-align:center;
+      padding: 50px;
+      margin: 0px;
+      border: 2px solid lightgrey;
+}
+
+h3 {
+	font-size:30px;
+	text-align:center;
+	padding-right: 40px;
+	color:darkslategrey;
+	font-weight: lighter;
+}
+
+
+
+#container {    
+    
+    margin left: auto;
+    margin-right: auto;
+
+}
+
+#header {
+}
+
+#content { 
+	padding:10px; 
+}
+
+
+#nav {
+	width: 180px; 
+	float :left; 
+	padding-top: 20px;
+	position:relative;
+	margin-left: 20px;
+	
+	
+}
+
+#nav ul {
+	list-style-type: none;
+}
+
+#nav .selected {
+	font-weight: bold;
+}
+
+
+.button {
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+#main {
+	width:80%;
+	float: left;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#main .photo {
+	position: relative;
+	padding: 10px;
+	
+}
+
+#footer 
+{
+	clear:both; 
+	padding: 10px;
+	text-align: right;
+	background-color: dimgrey;
+	color: whitesmoke;
+	
+	
+}
+	

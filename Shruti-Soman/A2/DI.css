@@ -1,0 +1,58 @@
+body
+{ text-align: center;
+    background-color: aquamarine;
+
+}
+h1
+{ text-align: center;
+    margin-top: 200px;
+    font-family: serif;
+    font-size: 100px;
+    font color: black;
+}
+h2
+{
+    text-align: center;
+        font-family: sans-serif;
+    font-size: 30px;
+    font color: aliceblue;
+    height: 1000px;
+}
+ul
+{
+    margin-top: 0px;
+    padding: 0;
+    overflow: hidden;
+    
+}
+li
+{
+    display: block;
+    float: left;
+    top: 10px;
+    font-family: serif;
+    font-size: 20px;
+    font color: cadetblue;
+    text-decoration: none;
+    padding: 15px;
+}
+p1
+
+{
+    font-size: 70px;
+    font-family: serif;
+    background-color: chocolate;
+}
+p2
+
+{
+    font-size: 70px;
+    font-family: serif;
+    background-color: burlywood;
+}
+p3
+{
+    font-size: 70px;
+    font-family: serif;
+    background-color: chocolate;
+}

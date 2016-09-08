@@ -1,0 +1,125 @@
+ 
+#name{
+    top:6.5px;
+        position: fixed;
+    color:white;
+    font-family:serif;
+    font-size: 400px;
+    margin-left: 840px;
+}
+.homebar{
+    top: 0px;
+    position: fixed;
+    height:35px;
+    width:98.75%;
+    margin-left: 0px;
+    margin-right: 17px;
+}
+#home{
+    color:white;
+    font-family: sans-serif;
+    font-size: 18px;
+    float:right;
+    margin-right: 50px;
+    margin-top: 90px;
+}
+#about{
+    position:relative;
+    color:white;
+    font-family: sans-serif;
+    font-size: 18px;
+    float:right;
+    margin-right: 50px;
+    margin-top: 90px;
+}
+#portfolio{
+    color:white;
+    font-family: sans-serif;
+    font-size: 18px;
+    float:right;
+    margin-right: 50px;
+    margin-top: 90px;
+}
+#contact{
+    color:white;
+    font-family: sans-serif;
+    font-size: 18px;
+    float:right;
+    margin-right: 50px;
+    margin-top: 90px;
+}
+img{
+    margin-right: 7px;
+    margin-left: 0px;
+    width:100%;
+    height:760px;
+    opacity: 70%;
+}
+
+.leftcolumn{
+    width:350px;
+    border-right:1px solid #fff; float:left;
+    padding:5px;
+    margin-left: 10%;
+    margin-right: 60%;
+    margin-top: 50px;
+}
+p{
+    font-size: 15px;
+    font-family: sans-serif;
+    float: left;
+    margin-left:50px;
+    color:white;
+}
+.middle{
+    width:350px;
+    height:200px;
+    border-right:1px solid #fff; float:left;
+    padding:5px;
+    margin-left: 10%;
+    margin-right: 60%;
+    margin-top: 12%;
+}
+h2{
+    color:bisque;
+    width:40%;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-right:1px solid #000; float:left;
+    padding:5px;
+}
+h3{
+    color:bisque;
+    width:40%;
+    font-size: 16px;
+    font-family: sans-serif;
+    float:left;
+    padding:5px;
+}
+a{
+    width:300px;
+    height:50px;
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-family: sans-serif;
+    float: left;
+    margin-left:50px;
+    color:black;  
+}
+
+footer{
+    background-color: darkslategray;
+    width:100%;
+    height:50px;
+    margin-top: 850px;
+}
+h6{
+    position: absolute;
+    margin-left: 570px;
+    margin-bottom: 8px;
+    margin-top: 30px;
+    font-size: 9px;
+    font-family: sans-serif;
+    color:bisque;
+    font-kerning: 5px;
+}

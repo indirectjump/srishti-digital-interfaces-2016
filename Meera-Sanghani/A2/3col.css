@@ -1,0 +1,55 @@
+body { 
+  font-family:
+  color: #666;
+}
+
+
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+header {
+	height: 100px;
+	padding: 0 15px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+	}
+	
+h2 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif}
+	
+#colone {
+	width: 115px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#coltwo {
+	width: 531px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#colthree {
+	width: 153px;
+	padding: 5px 15px;
+	float: left;
+}
+
+
+
+#colone {
+	background:#ffffff}
+#colthree {
+	background:#ffffff ;
+}
+header, #colone, #coltwo, #colthree {
+	margin-bottom: 5px;
+}
+
+#pagewrap, header,#colone,#coltwo,#colthree{
+	border: solid 10px #ffffff;
+}
+

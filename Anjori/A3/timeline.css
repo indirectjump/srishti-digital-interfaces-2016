@@ -1,0 +1,47 @@
+.container{
+    padding:20px;
+}
+
+.timeline{
+    list-style: none;
+    padding:0;
+    margin:0;
+    position:relative;
+}
+
+.timeline li{
+    margin-top:60px;
+}
+
+.timeline li div{
+    margin-left: 60px;
+    margin-top: -38px;
+    border: 1px solid #A9A9A9;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 450px;
+}
+
+.timeline li i{
+    width: 35px;
+    height: 35px;
+    display:block;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #A9A9A9;
+    border-radius:50px;
+    background-color: white;
+   }
+
+
+.timeline:after{
+    content:"";
+    width:1px;
+    height:100%;
+    background-color: #A9A9A9;
+    position: absolute;
+    top:3px;
+    left:17.2px;
+    z-index: -1;
+}

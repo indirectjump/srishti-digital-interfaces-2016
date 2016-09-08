@@ -1,0 +1,55 @@
+table, th, td{
+    table-layout: fixed;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 70px;    
+    border-collapse: collapse;
+}
+.hovtest th:hover{
+    background-color: palegreen;
+    color: black;
+}
+.datahov td:hover{
+    background-color: gold;
+}
+.colu2 td:hover{
+    background-color: aqua;
+}
+#top1, #top2, #top3{
+    color: white;
+    font-family: american typewriter;
+}
+#top1{
+    color: pink;
+}
+#top2{
+    color: blue;
+}
+#top3{
+    color: fuchsia;
+    
+}
+.colu1{
+    color: gray;
+    background-color: beige;
+    border: 1px solid black;
+    padding-bottom: 90px;
+}
+
+.colu2{
+    color: white;
+    background-color: yellowgreen;
+    font-family: lucida calligraphy; 
+    border-bottom: 1px solid white;
+}
+.colu3{
+    color: bisque;
+    background-image: url(girlsplash.jpg);
+    vertical-align: bottom;
+}
+.hovtest tr:hover{
+    color: red;
+}
+

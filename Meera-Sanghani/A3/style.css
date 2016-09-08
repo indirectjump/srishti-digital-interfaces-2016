@@ -1,0 +1,69 @@
+.year
+{ background-color: black;
+    color:white;
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    border:10px solid black;
+    position:relative;
+    left:870px;
+    top:300px;
+    
+
+}
+
+ .year{
+        display:block;
+        width:40px;      }
+      .desc{
+        display:block;
+        width:600px;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        visibility: hidden;
+      }
+      .year:hover {
+        color:white;
+        background: black;
+        width: 500px;
+        border-radius:10px;
+          z-index: 0;
+        
+          transition-duration: 3s
+      }
+        .year:hover > .desc{
+            visibility:visible;
+            color:white;
+            transform:translate(40px, -35px);
+            transition-duration: 2s;
+            
+        }
+      #container{
+        position: absolute;
+        left:50px;
+      }
+
+h1{
+    font-family: sans-serif;
+    font-size: 170;
+    height:80px;
+    text-align: center
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    
+}
+
+.bg{position:absolute;
+    left:400px;
+    top:00px;
+
+    width=300px;
+    align-content: center;
+    opacity:0.6;
+    z-index: -1;
+
+    
+}

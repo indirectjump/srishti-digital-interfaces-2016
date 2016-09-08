@@ -1,0 +1,98 @@
+ul {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 460px;
+}
+
+li{
+    float: left;
+    display: block;
+    color: dimgrey;
+    top: 100;
+    padding: 14px;
+    text-decoration: none;
+    font-family: "poiret one";
+    
+}
+
+a
+{
+color: dimgrey;
+text-decoration: none;
+
+}
+
+.banner
+
+{
+height: 100px;
+width: 100px;
+padding-left: 300px;
+opacity:2;
+}
+
+.banner:hover
+{ opacity:0.5;
+
+}
+
+
+
+#About
+{
+    
+position: absolute;
+top: 800px;
+height: 600px;
+
+
+}
+
+h2
+{
+margin-left:510px;
+margin-top: 0;
+font-family: "Poiret One";
+font-size: 50px;
+font-weight: 150;
+
+
+}
+
+h3
+{margin-left: 520px;
+font-weight: 100;}
+ 
+p
+
+{
+
+text-align: justify;
+font-size: 19px;
+margin-left: 400px;    
+margin-right:420px;
+width: 
+}
+
+.social
+{position: absolute;
+margin-top:1100px;
+margin-left: 600px;}
+
+.social:hover
+{ opacity:0.5;
+
+}
+
+.social2
+{position: absolute;
+margin-top:1100px;
+margin-left: 650px;}
+
+.social2:hover
+{ opacity:0.5;
+
+}

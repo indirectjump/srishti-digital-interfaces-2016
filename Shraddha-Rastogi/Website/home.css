@@ -1,0 +1,75 @@
+ 
+body {
+	
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    background-repeat: no-repeat;
+	background-size: cover
+}
+
+ a{
+    padding: 125px;
+	text-decoration: none;
+	color: midnightblue;
+    
+     
+}
+
+
+
+  h1 {
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 25px;
+    color: whitesmoke;
+    text-align:center;
+    padding: 350px;
+    margin: 0px;
+    
+}
+#background{
+    width: windowwidth;
+    height: windowheight/2;
+}
+
+#container {    
+    
+    margin left: auto;
+    margin-right: auto;
+
+}
+
+#header {
+}
+
+#content { 
+	padding:10px; 
+}
+
+
+#nav {
+    
+	padding:;
+	position:relative;
+	text-color:white;
+    font-size: 40px;
+    	
+}
+
+#nav ul {
+	list-style-type: none;
+}
+
+
+#footer 
+{
+	clear:both; 
+	padding: 10px;
+	text-align: right;
+	background-color: dimgrey;
+	color: whitesmoke;
+	
+	
+}
+	

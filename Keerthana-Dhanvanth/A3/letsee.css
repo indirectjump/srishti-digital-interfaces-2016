@@ -1,0 +1,53 @@
+body
+{
+    background-image:url(1check-01.jpg);
+   
+
+}
+
+.container
+{
+    width: 1300px;
+}
+
+.absolute
+{
+    font-family: DIN Alternate ;
+    font-size: 90px;
+    color: #255B60;
+    margin-left: 1000px;
+    letter-spacing:140px;
+}
+
+#story
+{
+    font-family: DIN alternate;
+    font-size: 100px;
+    color:#8EB1A5;
+    margin-left: 2900px;
+    margin-top: 740px;
+}
+
+#work
+{
+  font-family: DIN alternate;
+    font-size: 100px;
+    color:#8EB1A5;
+    margin-left: 2900px;
+    margin-top: 450px;  
+}
+
+#contact
+{
+    font-family: DIN alternate;
+    font-size: 100px;
+    color:#8EB1A5;
+    margin-left: 2900px;
+    margin-top: 450px;   
+}
+
+a
+{
+    color: #8EB1A5;
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+p
+{
+ font-size: 40px;
+    font-family: futura;
+    text-align: center;
+    color:darkolivegreen;
+}
+
+table
+{
+    font-family: futura;
+    text-align: center;
+}
+
+a
+{
+    
+  color:black;
+  text-decoration:none;
+}
+h6
+{
+    font-size: 0px;
+    text-align:right;
+    font-family: futura;
+}

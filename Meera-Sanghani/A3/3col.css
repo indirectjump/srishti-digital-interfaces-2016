@@ -1,0 +1,103 @@
+body { 
+  font-family:
+  color: #666;
+}
+
+
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+header {
+	height: 100px;
+	padding: 0 15px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif
+	}
+h1{
+    position:absolute;
+    top:20px;
+    left:660px;
+}
+	
+h2 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif}
+	
+.button {
+    display: inline-block;
+    padding: 1em;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: white;
+}
+
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+
+
+
+
+
+
+
+
+#colone {
+	width: 115px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#coltwo {
+	width: 531px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#colthree {
+	width: 153px;
+	padding: 5px 15px;
+	float: left;
+}
+
+
+
+#colone {
+	background:#ffffff}
+#colthree {
+	background:#ffffff ;
+}
+header, #colone, #coltwo, #colthree {
+	margin-bottom: 5px;
+}
+
+#pagewrap, header,#colone,#coltwo,#colthree{
+	border: solid 10px #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+

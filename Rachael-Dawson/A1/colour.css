@@ -1,0 +1,60 @@
+h1
+    
+    {font-family:'Bavro';
+    text-align:center;
+    font-size: 150px;
+        color:floralwhite;
+background color: lightcyan;
+        
+}
+
+h2
+
+{
+    text-align:center;
+    font-size: 80px;
+}
+
+h2
+{ color : floralwhite;
+    font-size: 90px;
+/*
+    @font-face: {font-family: 'Quicksand-Regular.otf';
+        font-family:'Quicksand-Regular.otf';
+    }
+*/
+    font-family: 'Bavro';
+}
+
+body {background-color: lightblue
+}
+
+div 
+
+{font-family: 'Bavro';
+    text-align: center;
+    color: floralwhite;
+    font-size:43px;
+}
+
+b 
+
+{font-family: 'Bavro';
+font-style: normal;
+    color:floralwhite;
+font-size: 120px;
+text-decoration: underline;
+text-align: center}
+
+P
+{text-align: center;
+    font-family: 'Bavro';
+    color:floralwhite;
+    font-size:43px;}
+
+}
+.columns {
+    position:absolute;
+    top: 600;
+    left: 600;
+}

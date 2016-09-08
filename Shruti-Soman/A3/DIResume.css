@@ -1,0 +1,139 @@
+body
+{
+    background-color: white;
+    
+}
+ul
+{
+    margin-top: 0px;
+    padding: 0;
+    overflow: hidden;
+    
+}
+li
+{
+    display: block;
+    float: left;
+    top: 10px;
+    font-family: serif;
+    font-size: 20px;
+    font color: cadetblue;
+    text-decoration: none;
+    padding: 15px;
+}
+li:hover
+{
+    color: darkcyan;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.tooltip1
+{
+    position:absolute;
+    top: 200px;
+    left:100px;
+    font-family: serif;
+    font-size: 40px;
+    border-style: solid;
+   border-width: thick;
+    border-color: black;
+    
+}
+.tooltip1:hover
+{
+    color: darkcyan;
+    border-color: darkcyan;
+}
+.tooltiptext1
+{
+    visibility: hidden;       
+     position: absolute;
+    font-family: serif;
+    font-size: 30px;
+    color: white;
+     text-align: center;
+    z-index: 5;
+    top: -5px;
+    left: 130%;
+    box-sizing: content-box;
+    background-color: darkcyan;
+        }
+
+ .tooltip1:hover .tooltiptext1
+{
+    visibility: visible;
+}
+.tooltip2
+{
+  position:absolute;
+    top: 200px;
+    left:500px;
+    font-family: serif;
+    font-size: 40px;
+    border-style: solid;
+   border-width: thick;
+    border-color: black;  
+}
+.tooltip2:hover
+{
+    color: darkcyan;
+    border-color: darkcyan;
+}
+ .tooltiptext2
+{
+     visibility: hidden;       
+     position: absolute;
+    font-family: serif;
+    font-size: 30px;
+    color: white;
+     text-align: center;
+    z-index: 5;
+    top: -5px;
+    left: 130%;
+    box-sizing: content-box;
+    background-color: darkcyan;
+    
+}
+.tooltip2:hover .tooltiptext2
+{
+   visibility: visible; 
+}
+.tooltip3
+{
+    position:absolute;
+    top: 200px;
+    left:1000px;
+    font-family: serif;
+    font-size: 40px;
+    border-style: solid;
+   border-width: thick;
+    border-color: black;  
+}
+.tooltip3:hover
+{
+    color: darkcyan;
+    border-color: darkcyan;
+}
+.tooltiptext3
+{
+     visibility: hidden;       
+     position: absolute;
+    font-family: serif;
+    font-size: 30px;
+    color: white;
+     text-align: center;
+    z-index: 5;
+    top: -5px;
+    left: 130%;
+    box-sizing: content-box;
+    background-color: darkcyan;
+}
+.tooltip3:hover .tooltiptext3
+{
+    visibility: visible; 
+}
+   

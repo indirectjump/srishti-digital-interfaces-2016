@@ -1,0 +1,71 @@
+#container {
+   
+    Position:absolute;
+    Top:0px;
+    Left:0px;
+    width:1300;
+    height:700;
+    overflow:hidden;
+    background-color:indianred;
+}
+
+#instagram {
+    width:50px;
+    height:50px;
+    top:200px;
+    left:850px;
+}
+
+#behance {
+    width:50px;
+    height:50px;
+    top:200px;
+    left:670px;
+  
+}
+
+#facebook {
+    width:50px;
+    height:50px;
+    top:200px;
+    left:740px;
+    background-color:indianred;
+}
+
+a {
+    font-family: "baron neue";
+    font-size:10px;
+    color:white;
+    letter-spacing:2;
+    text-decoration: none;
+}
+
+#email {
+    Position:absolute;
+    top:80px;
+    left:520px;
+    font-family:"trashhand";
+    font-size:18px;
+    color:white;
+    letter-spacing: 4;
+    
+}
+.h1.gmail {
+    Position:absolute;
+    top:80px;
+    left:500px;
+    font-family:"trashhand";
+    font-size:18px;
+    color:white;
+    letter-spacing: 4;
+}
+
+h2 {
+    Position:relative;
+    top:40px;
+    left:15px;
+    font-family:"trashhand";
+    font-size:18px;
+    color:white;
+    letter-spacing:2;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">   
+    
+<head><link rel="stylesheet" href="INDEX.css"></head>
+    
+<title>REBECCA'S PORTFOLIO</title>
+<body>
+    
+<header>RM</header>
+    
+<h5>Just like how you wanted.</h5>
+   
+<nav>
+<a href="ABOUT.html">ABOUT</a> |
+<a href="INDEX.html">HOME</a> |
+<a href="JOURNEY.html">MY JOURNEY</a> |
+<a href="CONTACT.html">CONTACT</a> 
+</nav> 
+    
+    
+<div class="w3-content w3-section"> 
+<img class= "mySlides" src="red.png" >
+<img class="mySlides" src="leaves.png">
+<img class="mySlides" src="blue.png">
+</div>
+    
+<script>
+var myIndex= 0;
+carousel();         
+
+function carousel()
+    {
+        var i;
+        var x= document.getElementsByClassName("mySlides");
+        for(i=0; i<x.length; i++){
+            x[i].style.display="none";
+        }
+        
+        myIndex++;
+        if(myIndex>x.length){myIndex=1}
+        x[myIndex-1].style.display="block";
+        setTimeout(carousel,3000); 
+    }
+</script>
+    
+<footer>(c) RM 2016 </footer>
+    
+</body>
+    
+</html>

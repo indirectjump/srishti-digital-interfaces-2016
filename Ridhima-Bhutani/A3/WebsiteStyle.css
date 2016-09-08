@@ -1,0 +1,383 @@
+body {
+    animation: colorchange 50s;
+    -webkit-animation: colorchange 50s;
+}
+
+@keyframes colorchange {
+    0% {background: white;}
+    25% {background: #dbbfb8;}
+    50%  {background: #d0a862;}
+    75%  {background: #d46a30;}
+    100% {background: #a52828;}
+}
+@-webkit-keyframes colorchange 
+{
+     0% {background: white;}
+    25%  {background: #dbbfb8;}
+    50%  {background: #d0a862:}
+    75%  {background: #d46a30:}
+    100% {background: #a52828:}
+    }
+    
+header {
+    background-image: url(paints.jpg);
+    background-size: cover;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+#name {
+    background-color: white;
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    top: 200px;
+    left:445px;
+    font-family: didot;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 40px;
+    opacity: 0.6;
+    display: block;
+    margin: auto;
+}
+
+#about {
+    position: absolute;
+    top: 520px;
+    left: 160px;
+}
+
+#work {
+    position: absolute;
+    top: 530px;
+    left: 600px;
+}
+
+#time {
+    position: absolute;
+    top: 520px;
+    left: 1000px;
+    
+}
+
+#about, #work, #time { 
+       font-family: avenir;
+       font-size: 32px; 
+       padding-top: 40px;
+       color: black;
+    
+}
+
+#about:hover, #work:hover, #time:hover {
+    color:deeppink;
+    }
+
+#abtme {
+    position: absolute;
+    top: 700px;
+    left: 560px;
+    font-family: avenir;
+    font-size: 32px;
+    text-align: center;
+    background-color: yellow;
+    width:150px;
+}
+
+#line1 {
+    position: absolute;
+    top: 715px;
+    left: 50px;
+    width: 500px;
+     
+}
+
+#line2 {
+    position: absolute;
+    top: 715px;
+    left: 720px;
+    width:500px;
+}
+
+p {
+    position: absolute;
+    top: 750px;
+    left: 570px;
+    font-family: didot;
+    font-size: 32px;
+}
+
+
+#lorem {
+    position: absolute;
+    top: 850px;
+    left: 200px;
+    width: 900px;
+    text-align: justify;
+}
+
+#things {
+    position:absolute;
+    top: 940px;
+    left: 550px;
+    font-size: 32px;
+    font-family: didot;
+    
+}
+
+#ill, #ill1, #ill2, #ill3, #ill4, #ill5 {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+#ill {
+    position: absolute;
+    top: 1000px;
+    left: 350px;
+    }
+
+#ill1 {
+    position: absolute;
+    top: 1000px;
+    left: 560px;
+}
+
+#ill2 {
+    position: absolute;
+    top: 1000px;
+    left: 770px;
+}
+
+#ill3 {
+    position: absolute;
+    top: 1200px;
+    left: 350px;
+}
+
+#ill4 {
+    position: absolute;
+    top: 1200px;
+    left: 560px;
+}
+
+#ill5 {
+    position: absolute;
+    top: 1200px;
+    left: 770px;
+}
+
+#wrk { position: absolute;
+    top: 1400px;
+    left: 560px;
+    font-family: avenir;
+    font-size: 32px;
+    text-align: center;
+    background-color: yellow;
+    width:150px
+}
+
+#line3 { 
+    position: absolute;
+    top: 1420px;
+    left: 50px;
+    width: 500px;
+}
+
+#line4 {
+     position: absolute;
+     top: 1420px;
+     left: 720px;
+     width: 500px;
+}
+
+#art1, #art2, #art3, #art4, #art5, #art6, #art7, #art8, #art9 {
+    width: 175px;
+    height: 200px;
+    padding: 1px;
+    border:1px solid;
+    border-color: black;
+}
+
+
+#art1 {
+    position: absolute;
+    top: 1500px;
+    left: 360px
+}
+
+#art2 {
+    position: absolute;
+    top: 1500px;
+    left: 550px;
+}
+
+#art3 {
+     position: absolute;
+     top: 1500px;
+     left: 740px;
+}
+
+#art4 {
+      position: absolute;
+      top: 1715px;
+      left: 360px;}
+
+#art5 {
+    position: absolute;
+    top: 1715px;
+    left: 550px;
+}
+
+#art6 {
+    position: absolute;
+    top: 1715px;
+    left: 740px;
+}
+
+#art7 {
+    position: absolute;
+    top: 1930px;
+    left: 360px;
+}
+
+#art8 {
+    position: absolute;
+    top: 1930px;
+    left: 550px
+}
+
+#art9 {
+    position: absolute;
+    top: 1930px;
+    left: 740px;
+}
+
+#tline { position: absolute;
+    top: 2170px;
+    left: 560px;
+    font-family: avenir;
+    font-size: 34px;
+    text-align: center;
+    background-color: yellow;
+    width:150px
+}
+
+#line5 {position: absolute;
+    top: 2190px;
+    left: 50px;
+    width: 500px;
+}
+
+#line6 {
+    position: absolute;
+    top: 2190px;
+    left: 720px;
+    width: 500px;
+}
+
+#list {
+    position: absolute;
+    top: 2260px;
+    left: 635px;
+    width: 2px;
+    height: 350px;
+    background-color: black;
+}
+
+
+ul {
+    list-style: none;
+}
+
+#A {
+    position: absolute;
+    top: 15px;
+    left: 90px;
+    display: none;
+}
+
+#start:hover + #A {
+    display: block; 
+}
+
+#B { 
+    position: absolute;
+    top: 77px;
+    left: -260px;
+    display: none;}
+
+#school {
+    position: relative;
+    top: 40px;
+    left: -110px;
+}
+
+#school:hover + #B {
+    display: block;
+}
+
+#C {
+    position: absolute;
+    top: 135px;
+    left: 100px;
+    display: none;
+}
+
+#shift {
+    position: relative;
+    top: 80px;
+    left: 5px;
+}
+
+#shift:hover + #C {
+    display: block;
+}
+    
+#D {
+    position: absolute;
+    top: 200px;
+    left: -300px;
+    display: none;
+}  
+
+#grad {
+    position: relative;
+    top: 120px;
+    left: -110px;
+}
+
+#grad:hover + #D {
+    display: block;
+}
+
+#E {
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    display: none;
+}
+
+#college {
+    position: relative;
+    top: 150px;
+    left: 5px;
+}
+
+#college:hover + #E {
+ display: block;}
+
+
+
+
+#start, #school, #shift, #grad, #college, #A, #B, #C, #D, #E {
+    font-family: didot;
+    font-weight:500;
+    font-size: 18px;
+}
+
+#cons { position: absolute;
+    top: 2650;
+    left: 500px; }

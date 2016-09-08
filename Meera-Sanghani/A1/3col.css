@@ -1,0 +1,51 @@
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+/* STRUCTURE */
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+header {
+	height: 100px;
+	padding: 0 15px;
+}
+#colone {
+	width: 250px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#coltwo {
+	width: 250px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#colthree {
+	width: 240px;
+	padding: 5px 15px;
+	float: left;
+}
+
+
+
+#colone {
+	background: #a57b7b;
+}
+#colthree {
+	background: #d68a8a;
+}
+header, #colone, #coltwo, #colthree {
+	margin-bottom: 5px;
+}
+
+#pagewrap, header,#colone,#coltwo,#colthree{
+	border: solid 10px #e8b4b4;
+}
+

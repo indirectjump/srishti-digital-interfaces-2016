@@ -1,0 +1,52 @@
+body{
+    background-image: url(gray%20background.png);
+}
+
+h2
+{
+    color: white;
+}
+
+a:link 
+{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+nav 
+{
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: #333333;
+}
+
+div 
+{
+    
+    position: absolute;
+    color: black;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    left: 750px;
+    font-size:50px;
+    font-family: fantasy;
+}
+
+img
+{
+position :absolute;
+top:150px;
+left: 150px;
+    }

@@ -1,0 +1,43 @@
+.leftc{
+        
+        position: absolute;
+        width: 200px;
+        height: auto;
+        top: 20px;
+        left: 10px;
+        background-color:black;
+        color:white;
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+        font-family: monospace;
+    }
+    .midc{
+        position: absolute;
+        width: 200px; 
+       height: auto;
+        top: 20px;
+        left: 230px;
+        background-color:floralwhite;
+        color: darkcyan;
+        font-size: 15px;
+        padding: 10px;
+        text-align: left;
+        font-family: serif;
+  }
+    .rightc{
+        position: absolute;
+        width: 200px; 
+        height: auto;
+        
+        left: 450px;
+        top: 20px;
+        background-color: darkslategrey;
+        color: floralwhite;
+        font-size: 13px;
+        padding: 10px;
+        text-align: center;
+        font-family:fantasy;
+        
+      }
+    

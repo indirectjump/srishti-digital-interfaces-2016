@@ -1,0 +1,18 @@
+body
+{
+    background-color: #F2EEE2;
+}
+#rectangle
+{
+    width:25px;
+    height:880px;
+    background:#DBBEB5;
+    margin-top: 790px;
+    margin-left: 2500px;
+    
+}
+
+.container
+{
+    width:100%;
+}

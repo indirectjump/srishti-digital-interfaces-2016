@@ -1,0 +1,36 @@
+body {background-color: coral;overflow-x: hidden;
+  padding-bottom: 50px}
+h1 {color: white; font-family: Helvetica; text-align: center; padding-top: 40px ; font font-size: 40px ; letter-spacing: 10px;padding: 100px }
+.year{
+        display:block;
+        width:100px; color: white; font-size: 14px; padding-left: 10px; padding-right: 10px;}
+
+      .desc{
+        display:block;
+        width:200px;
+        margin: 10px 10px 10px 10px;
+         padding: 10px 10px 10px 10px; 
+        visibility: hidden;
+      }
+      .year:hover > .desc{
+        color:white; 
+        background-color:black;
+        transform: translate(50px,-35px);padding:30px;
+        visibility: visible;
+      }
+      .container{ align-content: center;
+        position: absolute;
+        left:80px; font-family: sans-serif; font-size: 12px;width: 90%; max-width: 1200px;margin: 0 auto; text-align: center;
+      }
+.timeline {
+  list-style-type:none;
+  position: relative;
+  width: 3px;
+  margin: 0 auto;
+  padding-top: 50px; 
+  background: #fff;
+} 
+li:nth-child(even) {
+      float: right;
+      margin-top: 2em;
+    }

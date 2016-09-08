@@ -1,0 +1,131 @@
+@import 'https://fonts.googleapis.com/css?family=Monoton';
+@import 'https://fonts.googleapis.com/css?family=Special+Elite';
+
+header {
+    padding: .5em;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Monoton', cursive;
+    }
+        
+#navbar ul { 
+	margin: 0; 
+	padding:20px; 
+	list-style-type: none; 
+	text-align: center; 
+	background-color: transparent; 
+     color: white;
+    } 
+ 
+#navbar ul li {
+    border: none;
+    background-color: #5C0402;
+    padding: .500em 1.00em;
+    display: inline;
+    float: none;
+	} 
+ 
+#navbar ul li a { 
+	text-decoration: none; 
+	padding: .5em 2em; 
+	color: white;  
+    display: block;
+    display: inline;
+    font-size: 150%;
+    font-family: 'Special Elite', cursive, bold;
+	} 
+#navbar ul li a:hover {background-color: white;
+    color: #5C0402;}
+    
+body {background-color: #5C0402;}
+
+h {color: white;
+   text-align: center;
+    font-size: 600%;
+    position: absolute;
+    left: 400px;
+    top: 380px;
+    font-family: 'Special Elite', cursive;
+}
+
+p {color: white;
+   text-align: center;
+    font-size: 200%;
+    position: absolute;
+    top: 480px;
+    left: 490px;
+    font-family: 'Special Elite', cursive;
+}
+
+.button {
+    
+    background-color: #5C0402;
+    padding: .500em 1.00em;
+    display: inline block;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Special Elite', cursive;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 580px;
+    left: 800px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #5C0402;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    
+  }
+
+  to {
+    opacity: 1;
+    
+  }
+}
+
+h {
+  animation-name: fadeIn;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    
+  }
+
+  to {
+    opacity: 1;
+    
+  }
+}
+
+p {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    
+  }
+
+ to {
+    opacity: 1;
+  }
+}
+
+.button {
+    animation-name: fadeIn;
+    animation-duration: 4s;
+}

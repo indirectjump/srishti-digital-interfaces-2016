@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> portfolio</title>
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+        </head>
+  <body>          
+    <nav>  
+      <h2> <p style="word-spacing: 2em;">
+        
+        <a href="home.html">HOME</a>
+        
+        <a href="resume.html">ABOUT</a> 
+        
+        <a href="portfolio.html">PORTFOLIO</a>
+        
+        <a href="contact.html">CONTACT</a>
+      </h2>
+    </nav>
+    
+    <h1>PORTFOLIO</h1>
+    
+    <div class="w3-content w3-section"> 
+        <img class="mySlides" src="rainbow.jpg" >
+        <img class="mySlides"src="pinklady.jpg" >
+        <img class="mySlides"src="village.jpg" >
+        <img class="mySlides" src="colors.jpg" >
+    </div>
+<script>
+    var myIndex= 0;
+carousel();         
+
+function carousel()
+    {
+        var i;
+        var x= document.getElementsByClassName("mySlides");
+        for(i=0; i<x.length; i++){
+            x[i].style.display="none";
+        }
+        
+        myIndex++;
+        if(myIndex>x.length){myIndex=1}
+        x[myIndex-1].style.display="block";
+        setTimeout(carousel,3000); 
+    }
+</script>
+    </body>
+</html>

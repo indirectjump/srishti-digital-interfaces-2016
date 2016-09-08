@@ -1,0 +1,93 @@
+header{
+    font-size: 80px;
+    font-style: normal;
+    position:absolute;
+    top:15px;
+    left: 617px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h5{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    line-height: 14.5px;
+    position: absolute;
+    top: 96px;
+    left: 595px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  
+    }
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+nav{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    position: absolute;
+    top: 155px;
+    left: 520px;
+    text-align-last: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+body{
+    background-image: url(Untitled-6.png);
+}
+
+form{
+    padding:30px;
+    position: absolute;
+    top:230px;
+    left:560px;
+    background-color: black;
+    color: white;  
+    font-family: 'Open Sans', sans-serif;
+}
+
+#A{
+    height:1px;
+    width: 2px;
+    position: absolute;
+    top:200px;
+    left: 600px;
+    background-color: black;
+    
+}
+
+footer{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:20px;
+}

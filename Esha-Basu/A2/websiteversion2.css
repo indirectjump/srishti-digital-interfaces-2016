@@ -1,0 +1,43 @@
+body
+{text-align: center;
+
+}
+
+
+
+ul {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li{
+    float: left;
+    display: block;
+    color: white;
+    top: 100;
+    padding: 14px;
+    text-decoration: none;
+}
+
+h1 /*main header*/
+
+{  
+    font-family: "smoothie shoppe",sans-serif;
+    font-size:200px;
+    
+    margin-left: 450px;
+    
+    margin-top: 300px;
+   
+    height: 100px;
+    
+    width: 100px;
+    z-index: 100;
+    position: inherit;
+    border-color:black;
+    
+    
+}

@@ -1,0 +1,63 @@
+.container
+{
+    width:100%;
+    
+}
+body
+{
+    background-color:#F2EEE2;
+}
+
+h1
+{
+  font-family: Franklin Gothic Book;
+  font-size: 130px;
+  color:#255B60;
+    margin-top: 1220px;
+    margin-left: 450px;
+}
+
+#sana
+{
+    margin-left: 1400px;
+    margin-top: -600px;
+}
+
+#h2
+{
+    font-family: Franklin Gothic Book;
+    font-size: 30px;
+    color:#8EB1A5;
+    margin-left: 1400px;
+}
+
+#ad
+{
+    margin-left: 2500px;
+    margin-top: -1370px;
+ 
+}
+
+#h3
+{
+  font-family: Franklin Gothic Book;
+    font-size: 30px;
+    color:#8EB1A5;  
+    margin-left: 2500px;
+}
+
+#koch
+{
+    margin-left: 3600px;
+    margin-top: -1370px;
+}
+
+#h4
+{
+  font-family: Franklin Gothic Book;
+    font-size: 30px;
+    color:#8EB1A5;  
+    margin-left: 3600px;
+}
+
+

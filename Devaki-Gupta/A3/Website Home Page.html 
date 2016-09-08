@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html> 
+     <head> 
+         <title> Devaki Gupta </title>
+         <style>
+             Body {
+                 background: url(IMG_4450.jpg);
+                 background-size: 100%, 100%;
+                 background-repeat: no-repeat;
+                }
+         
+         </style>
+         
+            <link rel="stylesheet" href="Website%20Home%20Page.css" type="text/css"> 
+    </head>
+        
+    
+    <body> 
+    
+        <div id="container">
+                <div id="Text">                
+                   <div id="Logo">
+                   <img src="LOGO.png" alt="DG logo" height="190px" width="125px"  align="left" style="margin-top:30px;"> 
+                   </div>
+                  
+                   <div id="Menu"> 
+                   <div id="Story" class="menuinner"> 
+                   <h1 style="color:#595959"> <a href="story.html">Story </a></h1>
+                   </div>
+        
+                   <div id="Work" class="menuinner"> 
+                   <h1 style="color:#e6ac00"> <a href="work.html">Work </a></h1>
+                   </div>
+                
+                   <div id="Contact Me!" class="menuinner"> 
+                   <h1 style="color:#ff4d4d"> <a href="contactme!.html">Contact Me! </a></h1>
+                   </div>      
+                   </div>
+                </div>
+                <img src="Hello1.png" alt="hello" width="400px" height="300px" style="margin-left:750px; margin-top:50px;">
+        </div> 
+     </body>
+</html>

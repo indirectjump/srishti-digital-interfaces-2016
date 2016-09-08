@@ -1,0 +1,75 @@
+#container {
+   position: absolute;
+   width: 1200px;
+   left: 120px;
+   top:20px;
+}
+
+
+#Text {
+   width: 1200px;
+   height: 250px;
+}
+
+
+.menuinner {
+    color:#808080; 
+    text-decoration:none;
+    width: 140px;
+    display: inline-block;
+    font-family: existence ;
+    font-size: 12px;
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+#Menu
+{
+    position: relative;
+    width: 450px;
+    height: 150px;
+    float:right;
+    margin-right:50px;}
+
+#Story a
+{
+    color:#e6ac00;}
+
+#Work a
+{ 
+color: #595959;}
+
+
+#Contact Me! a 
+{ 
+color: #e75656  ;}
+
+#circle{
+    position: absolute;
+    width:300px;
+    height:300px;
+    border-radius: 300px;
+    top:100px;
+    left:850px;
+   background-color: whitesmoke;}
+
+#circle:hover{
+    transform: rotate(360deg);
+    transition-duration: 0.5s;
+    
+    position: absolute;
+    width:300px;
+    height:300px;
+    border-radius: 300px;
+    top:100px;
+    left:850px;
+    background-color: black;}
+
+
+
+
+
+
+

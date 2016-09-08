@@ -1,0 +1,540 @@
+body {
+
+}
+
+#container {
+    Width:900px;
+    position:absolute;
+    left:20px;
+}
+
+
+#header {
+    position:relative;
+    top:0;
+    left:0;
+    width:1300px;
+    height:200px;
+}
+
+h1.Mystory {
+    
+    font-family: "trashhand";
+    font-size: 38px;
+    color:#806965;
+    letter-spacing: 2;
+}
+
+#maintimeline
+{
+    position:relative;
+    top:10px;
+    left:245px;
+    Width:800px;
+    height:1000px;
+    
+}
+
+#h1.maintimeline {
+    
+    Position:relative;
+    top:0px;
+    left:550px;
+    font-family: 'Trashhand';
+    font-size:24px;
+
+}
+
+#centerline {
+    position:absolute;
+    top:38px;
+    left:366px;
+    width:3px;
+    height:920px;
+    background-color:indianred;
+}
+
+
+#bar1 {
+    position:absolute;
+    top:111;
+    left:367;
+    width:114px;
+    height:3px;
+    background-color:indianred;
+}
+
+
+#bar2 {
+    position:absolute;
+    top:308;
+    left:367;
+    width:114px;
+    height:3px;
+    background-color:indianred;
+
+}
+
+#bar3 {
+    
+    position:absolute;
+    top:527;
+    left:367;
+    width:114px;
+    height:3px;
+    background-color:indianred;
+}
+
+
+#bar4 {
+    position:absolute;
+    top:738;
+    left:367;
+    width:114px;
+    height:3px;
+    background-color:indianred;
+}
+
+#bar6 {
+    position:absolute;
+    top:205;
+    left:255;
+    width:114px;
+    height:3px;
+    background-color:indianred;
+    
+}
+
+#bar7 {
+    position:absolute;
+    top:418;
+    left:255;
+    width:114px;
+    height:3px;
+    background-color:indianred;
+    
+}
+
+
+#bar8 {
+    position:absolute;
+    top:636;
+    left:255;
+    width:114px;
+    height:3px;
+    background-color:indianred;
+}
+
+
+#bar9 {
+    position:absolute;
+    top:835;
+    left:255;
+    width:114px;
+    height:3px;
+    background-color:indianred;
+    
+}
+
+#year {
+    font-family:'Baron neue';
+    font-style:bold;
+    font-size:24px;
+    color:#b6beac;
+    position:absolute;
+    top:90;
+    left:310px;
+    
+}
+
+#box1 {
+    width:80px;
+    height:80px;
+    border-style:solid;
+    border-color:#b6beac;
+    border-width:3px;
+    position:absolute;
+    background-color:#8396a5;
+    top:75;
+    left:478px;
+    text-align: center;
+    font-size:6px;
+    color:#8396a5;
+    font-family:'trashhand';
+    font-size:regular;
+    letter-spacing: 2;
+   
+}
+
+h1.Hello World! {
+ 
+}
+
+#box1:hover {
+    transform:scale(1.5);
+    background-color:#b6beac;
+    color:white;
+    transition-duration: 1s;
+  
+}
+
+#year2 {
+    font-family:'Baron neue';
+    font-style:bold;
+    font-size:24px;
+    color:#b6beac;
+    Position:absolute;
+    top:180px;
+    right:380px;
+   
+}
+
+#box2 {
+    width:100px;
+    height:100px;
+    border-style:solid;
+    border-color:#b6beac;
+    border-width:5px;
+    
+    position:absolute;
+    top:155;
+    left:150px;
+    text-align: center;
+    font-size:6px;
+    color:white;
+    font-family:'trashhand';
+    font-size:regular;
+    letter-spacing: 2;
+    
+}
+
+#box2:hover {
+    transform:scale(1.5);
+    background-color:#b6beac;
+    color:white;
+    transition-duration:1s;
+
+}
+
+h2.Sloka {
+    
+    font-family:'trashhand';
+    font-style:regular;
+    font-size:4px;
+    color:white;
+    letter-spacing: 2;
+    
+}
+
+#year3 {
+    font-family:'Baron neue';
+    font-style:bold;
+    font-size:24px;
+    color:#b6beac;
+    Position:absolute;
+    top:285px;
+    left:305px;
+   
+}
+
+
+#box3 {
+    width:120px;
+    height:120px;
+    border-style:solid;
+    border-color:#b6beac;
+    border-width:8px;
+    position:absolute;
+    
+    top:245;
+    left:478px;
+    text-align: center;
+    font-size:6px;
+    color:white;
+    font-family:'trashhand';
+    font-size:regular;
+    letter-spacing: 2; 
+}
+
+#box3:hover {
+    
+    transform:scale(1.6);
+    color:white;
+    background-color:#b6beac;
+    transition-duration: 1s;
+   
+}
+
+h2.St.Georges School {
+    font-family:'trashhand';
+    font-style:regular;
+    font-size:4px;
+    color:white;
+    letter-spacing: 2;
+    
+}
+
+#year4 {
+    font-family:'Baron Neue';
+    font-style:bold;
+    font-size:24px;
+    color:#b6beac;
+    Position:absolute;
+    top:395px;
+    right:375px;
+}
+
+#box4 {
+    width:120px;
+    height:120px;
+    border-style:solid;
+    border-color:#b6beac;
+    border-width:8px;
+    position:absolute;
+    background-color:#8396a5;
+    top:360;
+    left:127px;
+    text-align: center;
+    font-size:6px;
+    color:#8396a5;
+    font-family:'trashhand';
+    font-size:regular;
+    letter-spacing:2;
+}
+
+#box4:hover {
+    transform:scale(1.6);
+    color:white;
+    background-color:#b6beac;
+    transition-duration: 1s;
+    border-style:solid;
+    border-color:#b6beac;
+    border-width:6px;
+    
+}
+
+#year5 {
+    font-family:'Baron neue';
+    font-style:bold;
+    font-size:24px;
+    color:#b6beac;
+    Position:absolute;
+    top:500px;
+    left:310px;
+}
+
+#box5 {
+    width:120px;
+    height:120px;
+    border-style:solid;
+    border-color:#b6beac;
+    border-width:5px;
+    background-color:#8396a5;
+    position:absolute;
+    top:470;
+    right:197px;
+    text-align: center;
+    font-size:8px;
+    color:#8396a5;
+    font-family:'trashhand';
+    font-size:regular;
+    letter-spacing:2;
+}
+
+#box5:hover {
+    transform:scale(1.6);
+    color:white;
+    background-color:#b6beac;
+    transition-duration: 1s;
+}
+
+
+#year6 {
+    font-family:'Baron neue';
+    font-style:bold;
+    font-size:24px;
+    color:#b6beac;
+    Position:absolute;
+    top:610px;
+    right:375px;
+}
+
+#box6 {
+    width:120px;
+    height:120px;
+    border-style:solid;
+    border-color:#b6beac;
+    border-width:8px;
+    position:absolute;
+    top:570;
+    left:127px;
+    text-align: center;
+    font-size:8px;
+    color:white;
+    font-family:'trashhand';
+    font-size:regular;
+    letter-spacing:2;
+}
+
+#box6:hover {
+    transform:scale(1.6);
+    color:white;
+    background-color:#b6beac;
+    transition-duration: 1s;
+}
+
+
+
+
+#year7 {
+    font-family:'Baron neue';
+    font-style:bold;
+    font-size:24px;
+    color:#b6beac;
+    Position:absolute;
+    top:715px;
+    left:310px;
+}
+
+#box7 {
+    width:100px;
+    height:100px;
+    border-style:solid;
+    border-color:#b6beac;
+    border-width:3px;
+    position:absolute;
+    top:680;
+    right:215px;
+    text-align: center;
+    font-size:6px;
+    color:white;
+    font-family:'trashhand';
+    font-size:regular;
+    letter-spacing:2;
+}
+
+#box7:hover {
+    transform:scale(1.6);
+    color:white;
+    background-color:#b6beac;
+    transition-duration: 1s;
+}
+
+
+#internship {
+    font-family:'Trashhand';
+    font-style:bold;
+    font-size:24px;
+    color:#b6beac;
+    Position:absolute;
+    top:815px;
+    right:345px;
+    letter-spacing: 2;
+}
+
+#box8 {
+    width:80px;
+    height:80px;
+    border-style:solid;
+    border-color:#b6beac;
+    border-width:3px;
+    background-color:#8396a5;
+    position:absolute;
+    top:790;
+    left:170px;
+    text-align: center;
+    font-size:6px;
+    color:#8396a5;
+    font-family:'trashhand';
+    font-size:regular;
+    letter-spacing:2;
+}
+
+#box8:hover {
+    transform:scale(1.6);
+    color:white;
+    background-color:#b6beac;
+    transition-duration: 1s;
+}
+
+#Now {
+    font-family:'trashhand';
+    font-style:bold;
+    font-size:24px;
+    color:#b6beac;
+    Position:absolute;
+    top:955px;
+    left:350px;
+    letter-spacing: 2;
+}
+
+#belowtimeline {
+    Position:absolute;
+    top:1200px;
+    left:0px;
+    width:1250;
+    height:1200;
+}
+
+#newbar{
+        Position:absolute;
+        Top:30px;
+        Left:610px;
+        width:3px;
+        Height:150px;
+        Background-color:indianred;
+}
+    
+#newsquare {
+    Position:relative;
+    top:100px;
+    left:485px;
+    width:250px;
+    height:250px;
+    background-color:indianred;
+    animation-name:animation1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+    
+h1.meee {
+    color:#efe9cb;
+    font-family:"trashhand";
+    font-size:24px;
+    letter-spacing:3;
+    position:relative;
+    Top:45px;
+    Left:30px;
+
+}
+
+p { color:#efe9cb;
+    font-family:"trashhand";
+    font-size:18px;
+    Position:relative;
+    Top:55px;
+    Left:30px;
+    letter-spacing: 2;
+    
+}
+    
+@keyframes animation1 {
+    
+    30% {background-color:#806965;}
+    
+    60% {background-color:#8396a5;}
+    
+}
+    
+#line {
+    width:1100px;
+    height:3px;
+    Position:absolute;
+    top:450px;
+    left:80px;
+    border-style: dotted;
+    border-color:#b6beac;
+    border-width:3px;
+    
+}
+}

@@ -1,0 +1,337 @@
+#firstpage{
+    background-image: url(splash1.jpg);
+    width: auto;
+    height: 680px;
+}
+.wlcm{
+    position: absolute;
+    color: #444241;
+    top: 42%;
+    left: 35%;
+    opacity: 0;
+    font-family: Corbel;
+    font-size: 50px;
+    letter-spacing: 5px;
+    
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+.name{
+    position: absolute;
+    color: #FEFEFB;
+    font-family: Corbel;
+    top: 46%;
+    left: 45.5%;
+    opacity: 0;
+    font-size: 30px;
+    letter-spacing: 3px;
+    
+    animation-name: fade2;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+.visart{
+    position: absolute;
+    top: 47.3%;
+    left: 34.5%;
+    color: #DCF2FC;
+    font-family: Corbel;
+    opacity: 0;
+    font-size: 26px;
+    
+    animation-name: fade3;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+
+@-webkit-keyframes fadein{
+    from{
+        position: absolute;
+        top: 44%;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+
+@-webkit-keyframes fade2{
+    from{
+        position: absolute;
+        left: 44%;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fade3{
+    from{
+        position: absolute;
+        left: 37%;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+ 
+.wrk, .tl, .abt{
+    position: absolute;
+    top: 550px;
+    height: 50px;
+    opacity: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-family: Corbel;
+    letter-spacing: 1px;   
+    width: 100px;
+    
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    outline:none;
+    
+    animation-name: fade4;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+@-webkit-keyframes fade4{
+  
+    to{
+        opacity: 1;
+    }
+}
+
+.wrk{
+    left: 20%;
+    width: 100px;
+    
+}
+.tl{
+    left: 45%;
+    width: 120px;
+}
+.abt{
+    left: 70%;
+    width: 100px;
+}
+
+
+@-webkit-keyframes upbar{
+    to{
+        opacity: 1;
+    }
+    
+}
+.wrk:hover, .tl:hover, .abt:hover{
+    background-color: white;
+    opacity: 0.5;
+}
+#mainfull{
+    position: relative;
+    top: 20px;
+}
+
+#mains{
+    position: relative;
+    top: 10px;
+    padding-top: 0.1%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    height: 675px;
+    border-collapse: collapse;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#workname{
+    position: relative;
+    top: -30px;
+    font-family: Corbel;
+    text-align: center;
+    font-size: 50px;
+    color: #BD97AE;
+    padding-bottom: 10px;
+}
+#imgbg{
+    position: relative;
+    top: -63px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: #C1C4D1;
+    height: 77%;
+}
+#un, #deux, #trois, #quatre, #cinq, #six, #sept, #huit, #neuf, #dix{
+    position: absolute;
+}
+#un{
+    left: 102px;
+    top: 100px;
+    height: 37%;
+}
+#deux{
+    left: 295px;
+    top: 100px;
+    height: 80%;
+}
+#trois{
+    left: 735px;
+    top: 352px;
+    height: 42.5%;
+}
+#quatre{
+    top: 100px;
+    left: 950px;
+    width: 14%;
+    height: 29%;
+}
+#cinq{
+    left: 630px;
+    top: 100px;
+    height: 29%;
+    width: 7.7%
+}
+#six{
+    left: 480px;
+    top: 100px;
+    height: 29%;
+}
+#sept{
+    left: 85px;
+    top: 356px;
+    height: 42%;
+}
+#huit{
+    left: 480px;
+    top: 302px;
+    height: 50%;
+}
+#neuf{
+    left: 950px;
+    top: 301px;
+    height: 50%;
+}
+#dix{
+    left: 735px;
+    top: 100px;
+    height: 36.5%;
+}
+#un:hover, #deux:hover, #trois:hover, #quatre:hover, #cinq:hover, #six:hover, #sept:hover, #huit:hover, #neuf:hover, #dix:hover{
+    color: white;
+    opacity: 0.4;
+}
+
+#journey{
+    position: relative;
+    top: 50px;
+}
+#linebody{
+    position: relative;
+    top: 10px;
+    height: 675px;
+}
+#list{
+    list-style-type: none;
+    float: left;
+}
+#tmln{
+    position: relative;
+    background-color: #77A5D1;
+    width: 5px;
+    left: 50%;
+    height: 500px;   
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#timelinetext{
+    padding-top: 20px;
+    color: #BD97AE;
+    text-align: center;
+    font-family: Corbel;
+    font-size: 40px;
+}
+#pnt1{
+    font-family: Corbel;
+}
+#pnt2, #pnt3, #pnt4{
+    position: relative;
+    padding-bottom: 10px;
+    width: 300px; 
+    text-align: center;
+    font-family: Corbel;
+}
+#pnt1, #pnt3{
+    left: -10%;
+}
+#pnt2, #pnt4{
+    left: -115%;
+}
+.even{
+    position: relative;
+    left: -140px;
+}
+#circle1, #circle2, #circle3, #circle4{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: #77A5D1;
+    border-radius: 7px;  
+    left: -4.3px;
+}
+#circle1{
+    top: 50px;
+}
+#circle2{
+    top: 24%;
+}
+#circle3{
+    top: 48%;
+}
+#circle4{
+    top: 68%;
+}
+#contact{
+    position: relative;
+    top: 100px;
+}
+#contmain{
+    position: relative;
+    top: -10px;
+    background-image: url(bluegradientflip.jpg);
+    background-size: cover;
+    height: 675px;
+}
+#profile{
+    position: absolute;
+    top: 50px;
+    left: 41%;
+    width: 16%;
+    height: 30%;
+    border-radius: 50%;
+}
+#metext{
+    padding: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+    font-family: Corbel;
+    font-size: 20px;
+    position: absolute;
+    top: 220px;
+    line-height: 40px;
+    color: #6C666A;
+}
+#topline{
+    font-size: 30px;
+    color: #53143E;
+}
+#detes{
+    color: #53143E;
+    font-size: 24px;
+}

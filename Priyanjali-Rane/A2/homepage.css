@@ -1,0 +1,61 @@
+.main{
+    position: absolute;
+    width: 1350px;
+    height: 650px;
+    
+}
+    
+
+   .backgroundimage {
+    position: absolute;
+       background-image: url(IMG_1646.JPG);
+       background-repeat: no-repeat;
+       background-size: cover;
+        opacity: 0.6;
+    left: 0px;
+    top: 0px;
+       width: 1350px;
+       height: 650px;
+       
+    
+}
+
+    .homebar{
+    position: fixed;
+       
+    width: 1350px;
+    height: 2px;
+        top: 70px;
+        text-align: Right;
+        
+        
+    background-color: black;
+    
+}
+
+#h501{
+    font-size: 20px;
+    position: fixed;
+    right:20px;
+    top: 20px;
+    color: black;
+}
+
+.transbox { 
+    margin: 30px;
+    border: 1px  black;
+  background-color: black;
+  opacity: 0.6;
+  }
+#content {
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+    top: 300px;
+    left: 500px;
+    color: black;
+    font-size: 20px;
+}
+
+
+ 

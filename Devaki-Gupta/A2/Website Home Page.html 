@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html> 
+     <head> 
+         <title> Devaki Gupta </title>
+         <style>
+             Body {
+                 background: url(home.jpg);
+                 background-size: 100%, 100%;
+                 background-repeat: no-repeat;
+                }
+         
+         </style>
+         
+            <link rel="stylesheet" href="Website.css" type="text/css"> 
+    </head>
+        
+    
+    <body> 
+      
+        <img src="LOGO.png" alt="DG logo" height="190px" width="125px" align="left"> <br> <br> <br> <br> <br> <br> <br> 
+            
+            
+            <table style="width:50%;" align="right">
+                
+                <tr>
+                    <th style="color:#808080"> <a href="about.html" style="color:#808080; text-decoration:none">ABOUT</a></th>
+                    <th style="color:#e6ac00"> <a href="work.html"
+                    style="color:#e6ac00; text-decoration:none">WORK</a> </th>
+                    <th style="color:#ff6666"> <a href="contact.html" style="color:#ff6666; text-decoration:none">CONTACT</a></th>
+                
+                
+                 </tr>
+                          
+            
+            
+            
+            </table>
+            <br><br><br>
+            <h1 align="centre"> <b>Devaki Gupta</b> </h1> 
+            
+ </body>
+
+
+</html>

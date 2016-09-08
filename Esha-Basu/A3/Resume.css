@@ -1,0 +1,136 @@
+ul {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 460px;
+}
+
+li{
+    float: left;
+    display: block;
+    color: dimgrey;
+    top: 100;
+    padding: 14px;
+    text-decoration: none;
+    font-family: "poiret one";
+    
+}
+
+a
+{
+color: dimgrey;
+text-decoration: none;
+
+}
+
+
+.about {
+    position: absolute;
+   margin-left: 200px;
+    }  
+
+.about .abouttext {
+visibility: hidden;  
+font-weight: 100;
+font-size: 18px;
+color: black;
+position: inherit;   
+
+margin-left: 10px;
+
+text-align: center;
+margin-left: 9px;
+
+    
+}
+
+.about:hover .abouttext
+{
+    visibility: visible;
+}
+
+.education
+{position: absolute;
+ margin-left: 650px;
+}
+
+.education .educationtext 
+{
+visibility: hidden;  
+font-weight: 100;
+font-size: 18px;
+color: black;
+position: absolute;   
+margin-left: 40px;
+
+    
+}
+
+.education:hover .educationtext
+{
+    visibility: visible;
+    
+}
+
+p
+{
+    text-align: center;
+}
+
+.experience 
+
+{
+    position: absolute;
+   margin-left: 250px;
+margin-top: 320px;
+}  
+
+.experience .experiencetext 
+{
+visibility: hidden;  
+font-weight: 100;
+font-size: 18px;
+color: black;
+position: inherit;   
+
+margin-left: 10px;
+
+text-align: center;
+margin-left: 9px;
+
+    
+}
+
+.experience:hover .experiencetext
+{
+    visibility: visible;
+}
+
+
+
+.skills
+{position: absolute;
+ margin-left: 600px;
+margin-top: 500px;
+}
+
+.skills .skillstext 
+{
+visibility: hidden;  
+font-weight: 100;
+font-size: 18px;
+color: black;
+position: absolute;   
+margin-left: 155px;
+margin-bottom: 500px;
+
+    
+}
+
+.skills:hover .skillstext
+{
+    visibility: visible;
+    
+}

@@ -1,0 +1,22 @@
+
+body {background-color: coral;}
+
+div {text-align:center;}
+
+ ul {
+    list-style-type: none;
+    margin: top; 
+    padding: 14px; }
+
+li {
+    float:left; }
+
+li a {
+    display: block;
+    color: white;
+    padding:20px 20px;
+    text-decoration: none ; }
+
+h1 {font-size:40px ; color:white;padding : 10px;font-family: Helvetica; letter-spacing: 20px ;}
+h2 {font-size:15px; color:white; padding : 5px;font-family: Helvetica;}
+div.img {align-content: center;}

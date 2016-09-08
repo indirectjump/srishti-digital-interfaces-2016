@@ -1,0 +1,131 @@
+body
+{
+        background-image:url(images/homepage%20wallpaper.jpg);
+        background-size: auto;
+        background-repeat: no-repeat;
+      
+}
+.title
+{
+        position:absolute;
+        width: 900px;
+        height: 120px;
+        top:10px;
+        left: 100px;
+        background-color: rgba(50,50,50,0.85);
+        color: rgba(255,255,0,0.95);
+        text-align:left;
+        padding: 10px 500px 20px 10px;
+        font-family: 'Megrim', cursive;
+        font-size:85px;
+}
+.button 
+{  
+        background-color: rgba(255,255,0,0.95);
+        border: 1px rgba(255,190,0,1);
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        float:left;
+        font-family: 'Lato', sans-serif;
+}
+.a
+{
+         text-decoration: none;
+         color: black;
+} 
+        
+.button:hover 
+{
+          background-color: rgba(255,220,0,1);
+}
+
+.search 
+{ 
+          border: 1px solid white; 
+          background: rgb(114,114,114) url(http://html-generator.weebly.com/files/theme/input-text-9.png) no-repeat 4px 4px; 
+          outline:0; 
+          padding-left:7px;
+          height:44px; 
+          width: 275px; 
+          color: rgba(255,255,0,0.8);
+          float: left;
+          font-family: "century gothic";
+    
+} 
+
+.content-item 
+{
+  background-image: url(images/random1.jpg);
+  backface-visibility: hidden;
+  margin: 10px ;
+  overflow: hidden;
+  position:relative;
+  float: left;
+  width: 390px;
+  height: 220px;
+  font-family: "century gothic";
+  font-size:13px;
+}
+.content-item .overlay 
+{
+  border-bottom: 100px solid rgba(250,250,0,0.95);
+  border-left: 100px solid transparent;
+  bottom: 0;
+  height: 0;
+  opacity: 0.95;
+  position: absolute;
+  right: 0;
+  text-indent: -9999px;
+  transition: all 0.5s ease-out;
+  width: 0;
+}
+.content-item:hover .overlay 
+{
+  border-bottom: 800px solid rgba(250,220,0,0.9);
+  border-left: 800px solid transparent;
+  transition: all 0.5s ease-out;
+}
+.content-item .corner-overlay-content 
+{
+  bottom: 15px;
+  color: rgb(20,20,20);
+  position: absolute;
+  right: 15px;
+  transition: all 0.5s ease-out;
+  font-family: "century gothic";
+}
+.content-item:hover .corner-overlay-content 
+{
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
+.content-item .overlay-content 
+{
+  bottom: 0;
+  color: rgb(20,20,20);
+  left: 0;
+  opacity: 0;
+  padding: 30px;
+  position:absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.3s ease-out;
+}
+.content-item .overlay-content h2 {
+  border-bottom: 1px solid white;
+  padding: 0 0 12px;
+}
+.content-item:hover .overlay-content {
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  transition-delay: 0.3s;
+}
+#born-hidden
+{
+    visibility: hidden;
+}

@@ -1,0 +1,172 @@
+#container{
+    position: absolute;
+    width: 1200px;
+    left: 120px;
+    top:20px;}
+
+
+#text{
+    position: absolute;
+    width: 1200px;
+    height: 250px;}
+
+
+#logolink{
+    position: fix;
+    width:125px;
+    height: 190px;
+    margin-left: 20px;
+    margin-top: 30px;}
+
+
+#one{
+    position: absolute;
+    width: 1200px;
+    height: 1830px;
+    top:300px;}
+
+#division{
+    position: absolute;
+    width: 1000px;
+    left: 110px;
+    top:2200px;
+    border-style:dashed;
+    border-width: 2px;
+    border-color: lightgrey;}
+
+#two{
+    position: absolute;
+    width: 1200px;
+    height: 2000px;
+    top:2200px;}
+
+img{
+    position: absolute;}
+
+
+.T1{
+    position: relative;
+    font-family: Existence;
+    font-size: 40px;}
+
+
+
+#circle1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    border-collapse: collapse;
+    background-color: transparent;
+    left: 500px;
+    top:30px;}
+
+
+
+
+
+#circle1{
+    animation-name: heading; 
+    animation-duration: 6s;
+    animation-iteration-count: infinite;}
+
+@-webkit-keyframes heading
+{
+    0%{
+        position: absolute;}
+    
+    20%{
+        position: absolute;
+        background-color: lightgrey;}
+    
+    40%{
+        position: absolute;
+        background-color:lightsteelblue;}
+    
+    60%{
+        position: absolute;
+        background-color: cadetblue;}
+    
+    80%{
+        position: absolute;
+        background-color:lightgrey;}
+    
+    100%{
+        position: absolute;
+        background-color: transparent;}
+}
+
+#kochi{
+    position: absolute;
+    top:360px;
+    left:70px;
+    width: 540px;
+    height: 340px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: lightsteelblue;}
+
+#kochi:hover{
+    position: absolute;
+    top:360px;
+    left:70px;
+    width: 540px;
+    height: 340px;
+    background-color: #b7cae1;}
+
+#M1{
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    width: 400px;
+    height: 600px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:#e6ccb3;}
+
+#M1:hover{
+    position: absolute;
+    top:50px;
+    left:190px;
+    width: 400px;
+    height: 600px;
+    background-color:#d9b18c;}
+
+
+.menuinner {
+    color:#808080; 
+    text-decoration:none;
+    width: 140px;
+    display: inline-block;
+    font-family: existence ;
+    font-size: 12px;
+}
+
+h1 a {
+    text-decoration: none;}
+
+#Menu
+{
+    width: 450px;
+    height: 150px;
+    float:right;}
+
+#Story a
+{
+    color:#808080; }
+
+#Work a
+{ 
+color: #e6ac00;}
+
+
+
+
+#Contact Me! a 
+{ 
+color: #ff4d4d ;}
+
+
+
+
+

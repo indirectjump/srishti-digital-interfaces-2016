@@ -1,0 +1,419 @@
+#container {
+    Position:absolute;
+    Top:0px;
+    Left:0px;
+    height:700px;
+    width:1400px;
+    background-color:#cfddc7;
+}
+
+
+
+a {color:#806965;
+    text-decoration: underline;
+    letter-spacing: 2; 
+}
+
+h1.home {
+    Position:absolute;
+    top:1px;
+    left:20px;
+    font-family: "trashhand";
+    font-size:24px;
+    color:indianred;
+    text-decoration:none;
+    letter-spacing: 2;
+}
+
+h1.whatIlove {
+    Position:absolute;
+    font-size: 48px;
+    font-family:"trashhand";
+    Top:0px;
+    Left:530;
+    color:#8396a5;
+    letter-spacing: 3;
+}
+
+
+h2 {
+    Position:absolute;
+    font-size: 18px;
+    font-family:"trashhand";
+    Top:80px;
+    Left:350;
+    color:#8396a5;
+    letter-spacing: 3;
+}
+
+h3 {
+    Position:absolute;
+    font-size: 18px;
+    font-family:"trashhand";
+    Top:110px;
+    Left:560;
+    color:#8396a5;
+    letter-spacing: 3;   
+}
+
+#box1 {
+    Position:absolute;
+    width:80px;
+    height:80px;
+    Top: 200px;
+    left:500px;
+    background-color:#8396a5;
+    animation-name: animation1;
+    animation-duration:12s;
+    animation-iteration-count:infinite;
+
+    
+}
+    
+#box2 {
+    Position:absolute;
+    width:80px;
+    height:80px;
+    Top: 200px;
+    left:600px;
+    background-color:#8396a5;
+    animation-name:animation2;
+    animation-duration:12s;
+    animation-iteration-count:infinite;
+
+
+}    
+    
+#box3 {
+    Position:absolute;
+    width:80px;
+    height:80px;
+    Top: 200px;
+    left:700px;
+    background-color:#8396a5;
+    animation-name:animation3;
+    animation-duration: 12s;
+    animation-iteration-count:infinite;
+
+
+}
+
+
+
+#box4 {
+        Position:absolute;
+        width:80px;
+        height:80px;
+    Top: 300px;
+    left:500px;
+    background-color:#8396a5;
+    animation-name: animation4;
+    animation-duration:12s;
+    animation-iteration-count:infinite;
+  
+    
+}
+    
+#box5 {
+    Position:absolute;
+    width:80px;
+    height:80px;
+    Top: 400;
+    left:600px;
+    background-color:#8396a5;
+    animation-name:animation5;
+    animation-duration:12s;
+    animation-iteration-count:infinite;
+   
+
+}    
+    
+#box6 {
+    Position:absolute;
+    width:80px;
+    height:80px;
+    Top: 300px;
+    left:700px;
+    background-color:#8396a5;
+    animation-name:animation6;
+    animation-duration: 12s;
+    animation-iteration-count:infinite;
+    
+}
+
+
+
+#box7 {
+        Position:absolute;
+        width:80px;
+        height:80px;
+    Top: 400px;
+    left:500px;
+    background-color:#8396a5;
+    animation-name: animation7;
+    animation-duration:12s;
+    animation-iteration-count:infinite;
+    
+    
+}
+    
+
+#box8 {
+    
+    Position:absolute;
+    width:80px;
+    height:80px;
+    Top: 300;
+    left:600px;
+    background-color:#8396a5;
+    animation-name:animation5;
+    animation-duration:12s;
+    animation-iteration-count:infinite;
+    
+    
+}
+
+    
+#box9 {
+    Position:absolute;
+    width:80px;
+    height:80px;
+    Top: 400px;
+    left:700px;
+    background-color:#8396a5;
+    animation-name:animation9;
+    animation-duration: 12s;
+    animation-iteration-count:infinite;
+    
+
+}
+
+h1.laughing {
+    Position:relative;
+    color:#8396a5;
+    font-size:14px;
+    font-family:"trashhand";
+    letter-spacing: 2; 
+}
+
+h1.colours {
+    Position:relative;
+    color:#8396a5;
+    font-size:14px;
+    font-family:"trashhand";
+    letter-spacing: 2; 
+}
+
+
+h1.people {
+    Position:relative;
+    color:#8396a5;
+    font-size:14px;
+    font-family:"trashhand";
+    letter-spacing: 2; 
+}
+
+h1.filtercoffee {
+    Position:relative;
+    color:#8396a5;
+    font-size:14px;
+    font-family:"trashhand";
+    letter-spacing: 2; 
+}
+
+h1.baking {
+    Position:relative;
+    color:#8396a5;
+    font-size:14px;
+    font-family:"trashhand";
+    letter-spacing: 2; 
+}
+
+h1.paper {
+    Position:relative;
+    color:#8396a5;
+    font-size:14px;
+    font-family:"trashhand";
+    letter-spacing: 2; 
+}
+h1.clouds {
+    Position:relative;
+    color:#8396a5;
+    font-size:14px;
+    font-family:"trashhand";
+    letter-spacing: 2; 
+}
+
+h1.kadakchai {
+    Position:relative;
+    color:#8396a5;
+    font-size:14px;
+    font-family:"trashhand";
+    letter-spacing: 2; 
+}
+
+h1.travelling {
+    Position:relative;
+    color:#8396a5;
+    font-size:14px;
+    font-family:"trashhand";
+    letter-spacing: 2; 
+}
+
+ @keyframes animation1 
+{
+    15%{transform:rotate(360deg)scale(0.8);
+            background-color:#cfddc7;
+            transition-duration:2s;}
+        
+    30% {background-color:#806965;}
+        
+        
+    65% {background-color:#b6beac;}
+            
+    100% {background-color:#efe9cb;}
+        
+    }
+    
+  @keyframes animation2
+    {
+        
+   30%{transform:rotate(360deg)scale(0.8);
+            background-color:#cfddc7;
+            transition-duration:2s;}
+        
+    50% {background-color:#806965;}
+        
+   
+        
+    65% {background-color:#b6beac;}
+            
+    100% {background-color:#efe9cb;}
+            
+}
+        
+
+
+@keyframes animation3 {
+    
+    45%{transform:rotate(360deg)scale(0.8);
+            background-color:#cfddc7;
+            transition-duration:2s;}
+        
+    60% {background-color:#806965;}
+    
+        
+    80% {background-color:#b6beac;}
+            
+    100% {background-color:#efe9cb;}
+}
+
+
+
+@keyframes animation4 {
+    
+    15%{transform:rotate(360deg)scale(0.8);
+            background-color:#cfddc7;
+            transition-duration:2s;}
+     30% {background-color:#806965;}
+        
+   
+        
+    65% {background-color:#b6beac;}
+            
+    100% {background-color:#efe9cb;}
+    
+}
+
+
+@keyframes animation5 {
+     30%{transform:rotate(360deg)scale(0.8);
+            background-color:#cfddc7;
+            transition-duration:2s;}
+        
+    50% {background-color:#806965;}
+        
+   
+        
+    65% {background-color:#b6beac;}
+            
+    100% {background-color:#efe9cb;}
+}
+
+
+@keyframes animation6 {
+  
+   45%{transform:rotate(360deg)scale(0.8);
+            background-color:#cfddc7;
+            transition-duration:2s;}
+        
+    60% {background-color:#806965;}
+    
+        
+    80% {background-color:#b6beac;}
+            
+    100% {background-color:#efe9cb;} 
+    
+}
+
+@keyframes animation7 {
+    15%{transform:rotate(360deg)scale(0.8);
+            background-color:#cfddc7;
+            transition-duration:2s;}
+        
+    30% {background-color:#806965;}
+        
+  
+        
+    65% {background-color:#b6beac;}
+            
+    100% {background-color:#efe9cb;}
+    
+}
+
+@keyframes animation8 {
+    
+    30%{transform:rotate(360deg)scale(0.8);
+            background-color:#cfddc7;
+            transition-duration:2s;}
+        
+    50% {background-color:#806965;}
+     
+        
+    65% {background-color:#b6beac;}
+            
+    100% {background-color:#efe9cb;}
+}
+        
+
+@keyframes animation9 {
+    
+     45%{transform:rotate(360deg) scale(0.8);
+            background-color:#cfddc7;
+            transition-duration:2s;}
+        
+    60% {background-color:#806965;
+    ;}
+    
+        
+    80% {background-color:#b6beac;}
+            
+    100% {background-color:#efe9cb;}
+}
+
+    } 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

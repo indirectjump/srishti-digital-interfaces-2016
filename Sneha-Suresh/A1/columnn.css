@@ -1,0 +1,23 @@
+#header {color: burlywood; 
+font-size: 53px;
+     text-align: center ; 
+font-family: Helvetica ;
+    letter-spacing:15px}
+
+#menu {color: firebrick ; font-size:40px; text-align: center;}
+
+#content
+    {
+    -webkit-column-count: 3; 
+    -moz-column-count: 3; 
+    column-count: 3;
+    align-content: center ; color: chocolate; }
+    {color: black ; align-content: center; font-size: 30px;}
+
+#footer {color:turquoise; font-size: 25px;}
+
+#para2 {color:darkkhaki;}
+#para3 {color:saddlebrown;}
+img {align-content: center ; display:block; margin: auto}
+#portfolio {color:darksalmon;}
+ 

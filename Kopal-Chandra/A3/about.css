@@ -1,0 +1,214 @@
+h1
+{
+    font-family: bakery;
+    color: lightseagreen;
+    font-size: 200px;
+    position: absolute;
+    left: 800px;
+}
+#container
+{
+    position: absolute;
+    top: 500px;
+    left: 750px;
+    height: 300px;
+    width: 300px;
+}
+.year
+{
+    position: relative;
+    font-family: futura;
+    font-size: 30px;
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    height: 200px;
+    width: 80px;
+}
+.descr
+{
+    position: absolute;
+    visibility: hidden;
+    font-family: futura;
+    font-weight: lighter;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: black;
+    padding: 10px;
+    width: 500px;
+}
+.year:hover>.descr
+{
+    visibility: visible;
+    transform: translate(250px,-50px);
+}
+#line{
+    height: 2150px;
+    width: 1px;
+    position: absolute;
+    left: 490px;
+    top: 250px;
+    background-color: lightseagreen;
+}
+
+#d1
+{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    animation-duration: 20s;
+    animation-name: anima;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+@-webkit-keyframes anima
+{
+    
+   0% 
+    {
+       position: absolute;
+       background-color: blueviolet;
+       top: 250px;
+       left: 700px;
+    }    
+   5% 
+    {
+        position: absolute;
+        background-color: yellow;
+        left:500px;
+        top: 400px;
+        transform: rotate(45deg);
+    }
+  10% 
+    {
+        position: absolute;
+        background-color: cornflowerblue;
+        left: 700px;
+        top: 500px;
+        transform: rotate(90deg);
+        
+    }
+  15%
+    {
+        position: absolute;
+        background-color: blueviolet;
+        left: 500px;
+        top: 600px;
+        transform: rotate(135deg);
+    }
+  20%
+    {
+        position: absolute;
+        background-color: red;
+        left: 700px;
+        top: 750px;
+        transform: rotate(180deg);
+    }
+  25%
+    {
+        position: absolute;
+        background-color: yellowgreen;
+        left: 500px;
+        top: 850px;
+        transform: rotate(135deg);
+    }
+  30%
+    {
+        position: absolute;
+        background-color: deeppink;
+        left: 700px;
+        top: 1000px;
+        transform: rotate(90deg);
+    }
+  35%
+    {
+        position: absolute;
+        background-color: yellow;
+        left: 500px;
+        top: 1100px;
+        transform: rotate(45deg);
+    }
+  40%
+    {
+        position: absolute;
+        background-color: dodgerblue;
+        left: 700px;
+        top: 1250px;
+        transform: rotate(0deg);
+    }
+  45%
+    {
+        position: absolute;
+        background-color: blueviolet;
+        left: 500px;
+        top: 1350px;
+        transform: rotate(45deg);
+    }
+  50%
+    {
+        position: absolute;
+        background-color: orange;
+        left: 700px;
+        top: 1500px;
+        transform: rotate(90deg);
+    }
+  55%
+    {
+        position: absolute;
+        background-color: green;
+        left: 500px;
+        top: 1600px;
+        transform: rotate(135deg);
+    }
+    60%
+    {
+        position: absolute;
+        background-color: lightcoral;
+        left: 700px;
+        top: 1750px;
+        transform: rotate(180deg);
+    }
+    65%
+    {
+        position: absolute;
+        background-color: deepskyblue;
+        left: 500px;
+        top: 1850px;
+        transform: rotate(135deg);
+    }
+    70%
+    {
+        position: absolute;
+        background-color: yellow;
+        left: 700px;
+        top: 2000px;
+        transform: rotate(90deg);
+    }
+    75%
+    {
+        position: absolute;
+        background-color: darkmagenta;
+        left: 500px;
+        top: 2100px;
+        transform: rotate(45deg);
+    }
+    80%
+    {
+        position: absolute;
+        background-color: lawngreen;
+        left: 700px;
+        top: 2200px;
+        transform: rotate(0deg);
+    }
+    
+    100%
+    {
+        position: absolute;
+        background-color: blueviolet;
+        left: 700px;
+        top: 250px;
+        transform: rotate(360deg);
+    }
+}

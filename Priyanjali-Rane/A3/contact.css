@@ -1,0 +1,34 @@
+ul {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 460px;
+}
+
+li{
+    float: left;
+    display: block;
+    color: dimgrey;
+    top: 100;
+    padding: 14px;
+    text-decoration: none;
+    font-family: "poiret one";
+    
+}
+a
+{
+color: dimgrey;
+text-decoration: none;
+
+}
+
+form
+{position: absolute;
+ margin-left: 550px;
+margin-top: 200px;
+width: 300px;
+font-family: "Poiret One";
+font-size:25px;}
+

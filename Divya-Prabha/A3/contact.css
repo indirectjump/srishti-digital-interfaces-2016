@@ -1,0 +1,50 @@
+body{
+    background-image: url(gray%20background.png);
+}
+
+h2 
+{
+    color: white;
+}
+
+a:link 
+{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+nav 
+{
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: #333333;
+}
+h1
+{   position: absolute;
+    top:80px;
+    left:550px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Baloo Chettan';
+    text-decoration-line: underline;
+    
+}
+div
+{   top:700px;
+    left:450px;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    text-decoration-line: underline;
+    
+}

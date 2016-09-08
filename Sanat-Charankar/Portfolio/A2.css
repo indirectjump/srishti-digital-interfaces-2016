@@ -1,0 +1,174 @@
+h2{
+    color: white;
+}
+
+h2 p {
+    word-spacing: 40em;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+nav {padding-top: 5px;
+padding-right: 30px;
+padding-bottom: 5px;
+padding-left: 10px;
+
+background-color: blueviolet
+}
+div {color: red;
+padding-top: 15px;
+padding-right: 65px;
+padding-bottom: 15px;
+padding-left: 25px;
+}
+.right {font-size:50px;
+font-family: fantasy;
+float: right;
+width: 500px;
+padding: 10px;
+}
+img{
+    position :absolute;
+    top:150px;
+    left: 150px;
+}
+
+.timeline {
+  list-style: none;
+}
+.timeline > li {
+  margin-bottom: 60px;
+}
+
+@media ( min-width : 640px ){
+  .timeline > li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
+  .timeline-date {
+    width: 110px;
+    float: left;
+    margin-top: 20px;
+  }
+  .timeline-content {
+    width: 75%;
+    float: left;
+    border-left: 3px #e5e5d1 solid;
+    padding-left: 30px;
+  }
+  .timeline-content:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #6fc173;
+    position: absolute;
+    left: 106px;
+    top: 24px;
+    border-radius: 100%;
+  }
+.top-QuickTip {
+  position: relative
+}
+.top-QuickTip:before {
+  content: attr(data-quicktip);
+  position: absolute;
+  background: #444;
+  top: -3.4em;
+  left: 50%;
+  text-indent: 0;
+  color: #fff;
+  font-size: 12px;
+  padding: 8px 16px;
+  border-radius: 3px;
+  white-space: nowrap;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  font-weight: bold;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  box-shadow:0 1px 3px rgba(0,0,0,0.35)
+}
+
+.top-QuickTip:after {
+  content: '';
+  display: block;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-color: #444 transparent transparent transparent;
+  padding: 0;
+  border-width: 10px 5px 0 5px;
+  position: absolute;
+  left: 50%;
+  top: -0.7em;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.top-QuickTip:hover:before,
+.top-QuickTip:hover:after {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+.top-QuickTip {
+  border-bottom:1px dotted
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.zoom-effect-container {
+    float: left;
+    position: relative;
+    width: 640px;
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+a{
+  display: block;
+  text-align:center;
+  margin: 0 auto;
+  width: 100%;
+  color: #aaa;
+}

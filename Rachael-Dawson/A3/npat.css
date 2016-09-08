@@ -1,0 +1,17 @@
+#container {
+position:absolute;
+top:0px;
+left:0px;
+height:1600px;
+width:1400px;
+background-color:#efe9cb;
+}
+
+
+#quantify {
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:300px;
+    width:1200px;
+}

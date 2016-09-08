@@ -1,0 +1,20 @@
+body {background-color: darkgoldenrod;}
+
+div {text-align:center;}
+
+ ul {
+    list-style-type:none;
+    margin: top; 
+    padding: 3px; font-size:12px;font-family: sans-serif; font-style: normal; }
+
+li {
+    float:left; }
+
+li a {
+    display: block;
+    color: white;
+    padding:10px;
+    text-decoration: none; } 
+
+h1 {font-size:80px;color:white;font-family:Helvetica; letter-spacing: 12px ; text-align:center;}
+#aboutme {font-size: 12px;color:white; font-family: Helvetica; text-align: center;}

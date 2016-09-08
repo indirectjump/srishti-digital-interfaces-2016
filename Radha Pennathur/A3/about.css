@@ -1,0 +1,247 @@
+
+body {
+	
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	
+	
+}
+
+a {
+	text-decoration: none;
+	color: dimgray;
+}
+
+
+
+  h1 {
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+      color: darkslategrey;
+      text-align:center;
+      padding: 50px;
+      margin: 0px;
+      border: 2px solid lightgrey;
+}
+
+h3 {
+	font-size:30px;
+	text-align:center;
+	padding-right: 40px;
+	color:darkslategrey;
+	font-weight: lighter;
+}
+
+
+
+#container {    
+    
+    margin left: auto;
+    margin-right: auto;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+ 
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+.active {
+    background-color: darkslategray;
+    color: white;
+}
+
+#header {
+
+}
+
+#content { 
+	padding:10px; 
+	
+}
+
+
+#nav {
+	width: 180px; 
+	float :left; 
+	padding-top: 20px;
+	position:fixed;
+	margin-left: 50px;
+		
+	
+}
+
+#nav ul {
+	list-style-type: none;
+}
+
+#nav .selected {
+	font-weight: bold;
+}
+
+
+.button {
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+   
+	
+#main {
+  position:absolute;
+  width:80%;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 270px;
+    
+}
+
+.wrap {
+  display: inline-block;
+  -webkit-box-shadow: 0 0 70px #fff;
+  -moz-box-shadow: 0 0 70px #fff;
+  box-shadow: 0 0 70px #fff;
+  margin-top: 40px;
+  position:absolute;
+  width:80%;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 270px;
+}
+
+
+li {
+  float: left;
+}
+
+
+ul:after {
+  clear: both;
+}
+
+ul:before,
+ul:after {
+    content: " ";
+    display: table;
+}
+
+
+ul.primary li a {
+  display: block;
+  padding: 20px 30px;
+  border-right: 1px solid #3D3D3D;
+}
+
+ul.sub {
+  position: absolute;
+  z-index: 200;
+  box-shadow: 2px 2px 0 #BEBEBE;
+  width: 35%;
+  display:none;
+}
+
+ul.sub li {
+  float: none;
+  margin: 0;
+}
+
+ul.sub li a {
+  border-bottom: 1px dotted #ccc;
+  border-right: none;
+  color:black;
+  padding: 15px 30px;
+}
+
+ul.sub li:last-child a {
+  border-bottom: none;
+}
+
+ul.sub li a:hover {
+  color: dimgrey;
+  background: #eeeeee;
+}
+
+ul.primary li:hover ul {
+  display: block;
+  background: white;
+}
+
+ul.primary li:hover a {
+  background: white;
+  color: none;
+  text-shadow: none;
+}
+
+ul.primary li:hover > a{
+  color: grey;
+} 
+
+  
+  .wrap {
+    width: 100%;
+    margin-top: 0px;
+	margin-left: 40px;
+  }
+  
+   li {
+    float: none;
+  }
+  
+  ul.primary li:hover a {
+    background: none;
+    color: grey;
+    text-shadow: 1px 1px black;
+  }
+
+  ul.primary li:hover ul {
+    display: block;
+    background: grey;
+    color: white;
+  }
+  
+  ul.sub {
+    display: block;  
+    position: static;
+    box-shadow: none;
+    width: 100%;
+  }
+  
+  ul.sub li a {
+    background: grey;
+  	border: none;
+    color: lightgrey;
+  }
+  
+  ul.sub li a:hover {
+    color: lightgray;
+    background: none;
+  }
+    
+}
+

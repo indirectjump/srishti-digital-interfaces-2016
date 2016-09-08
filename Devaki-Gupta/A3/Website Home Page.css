@@ -1,0 +1,63 @@
+
+
+#container {
+   position: absolute;
+   width: 1200px;
+   left: 120px;
+   top:20px;}
+
+
+#Text {
+   width: 1200px;
+   height: 250px;}
+
+
+
+.menuinner {
+    color:#808080; 
+    text-decoration:none;
+    width: 140px;
+    display: inline-block;
+    font-family: existence ;
+    font-size: 12px;}
+
+#Logo:hover {
+    position:absolute;
+    transform:rotateY(360deg);
+    transition-duration: 2s;}
+
+
+h1 a {
+    text-decoration: none;}
+
+
+#Menu
+{
+    width: 450px;
+    height: 150px;
+    float:right;}
+
+
+
+
+#Story a
+{
+    color:#595959; }
+
+#Work a
+{ 
+color: #e6ac00;}
+
+
+
+
+#Contact Me! a 
+{ 
+color: #ff4d4d ;}
+
+
+#email a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;}

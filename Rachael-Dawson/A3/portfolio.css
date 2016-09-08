@@ -1,0 +1,43 @@
+#container {
+    Position:absolute;
+    Top:0px;
+    Left:0px;
+    height:700px;
+    width:1400px;
+    background-color:#cfddc7;
+}
+
+h1.projects {
+    font-family:"trashhand";
+    font-size:38px;
+    color:#806965;
+    letter-spacing:2;
+}
+
+#sma {
+    position:relative;
+    top:50px;
+    left:50px;
+}
+
+a {
+    text-decoration: none;
+    color:#806965;
+    font-family:"trashhand";
+    font-size:"8px";
+    letter-spacing:2;
+}
+
+#digipaint {
+    position:absolute;
+    top:155px;
+    left:490px;
+}
+
+
+#NPAT {
+    position:absolute;
+    top:155px;
+    left:830px;
+
+}

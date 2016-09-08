@@ -1,0 +1,153 @@
+ 
+body {
+	
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	
+	
+}
+
+a {
+	text-decoration: none;
+	color: dimgray;
+}
+
+
+
+  h1 {
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+      color: darkslategrey;
+      text-align:center;
+      padding: 50px;
+      margin: 0px;
+      border: 2px solid lightgrey;
+}
+
+h3 {
+	font-size:30px;
+	text-align:center;
+	padding-right: 40px;
+	color:darkslategrey;
+	font-weight: lighter;
+}
+
+
+
+#container {    
+    
+    margin left: auto;
+    margin-right: auto;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+ 
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: dimgrey;
+    color: white;
+}
+
+.active {
+    background-color: darkslategray;
+    color: white;
+}
+
+#header {
+
+}
+
+#content { 
+	padding:10px; 
+	
+}
+
+
+#nav {
+	width: 180px; 
+	float :left; 
+	padding-top: 20px;
+	position:fixed;
+	margin-left: 50px;
+		
+	
+}
+
+#nav ul {
+	list-style-type: none;
+}
+
+#nav .selected {
+	font-weight: bold;
+}
+
+
+.button {
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+   
+	
+#main {
+	
+  position:absolute;
+  width:80%;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 170px
+    
+}
+
+#main img {
+  padding-left: 300px;
+  position:absolute;
+  margin-top: 50px;
+  left:0px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  border-color:white;
+}
+
+#main img.top:hover {
+  opacity:0;
+}
+
+
+#footer 
+{
+	clear:both; 
+	padding: 10px;
+	text-align: right;
+	background-color: dimgrey;
+	color: whitesmoke;
+	margin-top: 600px;
+	
+}
+	

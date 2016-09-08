@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .year{
+        display:block;
+        width:100px;      }
+      .desc{
+        display:block;
+        width:200px;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        visibility: hidden;
+      }
+      .year:hover > .desc{
+        color:white;
+        background: black;
+        transform: translate(50px,-35px);
+        visibility: visible;
+      }
+      #container{
+        position: absolute;
+        left:50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Timeline</h1>
+    <div id="container">
+
+
+
+    <div class="year">
+     1991
+
+      <div class="desc">
+        Joined XYZ college
+      </div>
+
+    </div>
+
+
+    <div class="year">
+      1992
+      <div class="desc">
+        Left XYZ College
+      </div>
+    </div>
+    <div class="year">
+      1993
+      <div class="desc">
+        Joined XYZ college
+      </div>
+    </div>
+    <div class="year">
+      1994
+      <div class="desc">
+        Left XYZ College
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

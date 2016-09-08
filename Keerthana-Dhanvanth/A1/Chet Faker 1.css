@@ -1,0 +1,42 @@
+
+h1
+{
+    color:azure; 
+    text-align:center;
+     font-family:monospace;
+    font-size: 400%;
+    background: black;
+}
+
+h3
+{
+    color:mediumaquamarine;
+    text-align: center;
+    font-family: sans-serif;
+    font-size:250%;
+}
+
+p
+{
+
+    text-align: left;
+    font-family: sans-serif;
+    border: 1px blue;
+    padding :30x;
+    margin:50x;
+    column-count:aquamarine;
+        
+   
+    }
+
+pre
+{
+    font-family: sans-serif;
+}
+
+
+img
+{}
+</style>
+</head>
+</html>

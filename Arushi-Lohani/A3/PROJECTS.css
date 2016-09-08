@@ -1,0 +1,112 @@
+body{background-image:url("filmsetfinal.jpg");
+    background-size: 100%;    
+}
+
+#projects{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+DIV.texthover {
+    width:100%;
+    display:block;
+    position:relative;
+    text-align: center!important;
+}
+
+DIV.texthover .overlay {
+    position:absolute;
+    top:100px;
+    left:600px;
+    height:40%;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.3);
+    display:none;
+    color: white;
+}
+DIV.texthover:hover .overlay {
+    display:block;
+}
+DIV.texthover1 {
+    width:100%;
+    display:block;
+    position:relative;
+    text-align: center!important;}
+
+DIV.texthover1 .overlay1 {
+    position:absolute;
+    top:100px;
+    left:600px;
+    height:40%;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.3);
+    display:none;
+    color: white;
+}
+DIV.texthover1:hover .overlay1 {
+    display:block;
+}
+
+DIV.texthover2 {
+    width:100%;
+    display:block;
+    position:relative;
+    text-align: center!important;}
+
+DIV.texthover2 .overlay2 {
+    position:absolute;
+    top:100px;
+    left:600px;
+    height:40%;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.3);
+    display:none;
+    color: white;
+}
+DIV.texthover2:hover .overlay2 {
+    display:block;
+}
+
+DIV.texthover3 {
+    width:100%;
+    display:block;
+    position:relative;
+    text-align: center!important;}
+
+DIV.texthover3 .overlay3 {
+    position:absolute;
+    top:100px;
+    left:600px;
+    height:40%;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.3);
+    display:none;
+    color: white;
+}
+DIV.texthover3:hover .overlay3 {
+    display:block;
+}
+
+.button {
+    background-color: white;
+    position: absolute;
+    top:1000px;
+    left:570px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.button:hover{
+    background-color: bisque;
+}
+/*visited link*/
+a:button{
+    color:black;
+}

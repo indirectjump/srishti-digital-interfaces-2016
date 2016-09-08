@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Bavro';
+ font-size: 80px;
+    color: maroon;
+
+}
+
+div {position: absolute;
+    margin-top: 10px;
+    margin-left: 150;
+    text-align: center;
+}
+
+h2 { 
+font-family: 'Bavro';
+font-size: 60px;
+color: maroon;
+    margin-top:0px;
+}
+
+a { color: maroon;
+text-decoration: none;
+}
